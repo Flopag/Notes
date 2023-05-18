@@ -1,0 +1,3 @@
+# Cisaillement
+
+- Symbole : $\tau$
