@@ -1,0 +1,34 @@
+# Lexique questions
+
+- [Q1.1](Questions/Q1.1.md) Pour différents type de fluide, expliquer la relation liant les contraintes de cisaillement et le gradient de vitesse. Détailler particulièrement les deux fluides suivants : fluide newtonien et fluide parfait
+- [Q1.2](Questions/Q1.2.md) Qu’est-ce qu’un fluide barotrope ?
+- [Q1.3](Questions/Q1.3.md) La pression est-elle une grandeur scalaire ou vectorielle ?
+- [Q1.4](Questions/Q1.4.md) **Établir l’équation fondamentale de la statique des fluides.**
+- [Q1.5](Questions/Q1.5.md) Citer 4 conséquences liées à l’équation fondamentale de la statique des fluides.
+- [Q1.6](Questions/Q1.6.md) Énoncer et ensuite démontrer le principe d’Archimède.
+- [Q1.7](Questions/Q1.7.md) Discuter la stabilité des corps flottants après avoir défini les notions de centre de poussée, centre de masse et métacentre.
+- [Q2.1](Questions/Q2.1.md) Définir les notions de trajectoire et de ligne de courant. Dans quel(s) cas particulier(s) ces deux notions sont-elles identiques ?
+- [Q2.2](Questions/Q2.2.md) Définir la notion de dérivée particulaire.
+- [Q2.3](Questions/Q2.3.md) Le principe de conservation de la quantité de mouvement énoncé par Newton privilégie‐t‐il une vue lagrangienne ou eulérienne ?
+- [Q2.4](Questions/Q2.4.md) **Démontrer le théorème de transport de Reynolds et l’appliquer à la conservation de la masse/de la quantité de mouvement.**
+- [Q2.5](Questions/Q2.5.md) Quelles sont les forces à considérer dans le principe de conservation de la quantité de mouvement ?
+- [Q2.6](Questions/Q2.6.md) Exprimer mathématiquement le tenseur des forces de surface.
+- [Q2.7](Questions/Q2.7.md) Quelle est la définition physique et mathématique d’un fluide incompressible ?
+- [Q2.8](Questions/Q2.8.md) Un fluide incompressible peut‐il être hétérogène ?
+- [Q2.9](Questions/Q2.9.md) Quelle est la conséquence de l’incompressibilité de l’écoulement sur la formulation de la conservation de la masse ?
+- [Q2.10](Questions/Q2.10.md) **Au départ de l’équation de continuité générale, démontrer la constance du débit volumique le long d’un tube de courant dans le cas d’un écoulement incompressible.**
+- [Q3.1](Questions/Q3.1.md) Quels sont les mouvements et déformations que subit une particule fluide lors de son déplacement ?
+- [Q3.2](Questions/Q3.2.md) Définir les notions de fil, surface, tube et débit tourbillonnaires. Établir ce que vaut le débit tourbillonnaire le long d'un tube tourbillonnaire.
+- [Q3.3](Questions/Q3.3.md) Quels sont les trois états possibles d’un tube tourbillonnaire ? Quel(s) phénomène(s) de la mécanique des fluides peut (peuvent) être approché(s) par la notion de tube ou couches tourbillonnaires ?
+- [Q3.4](Questions/Q3.4.md) Définir la notion de circulation du champ de vitesse. Quel est le lien possible avec le tube tourbillonnaire ?
+- [Q3.5](Questions/Q3.5.md) Après avoir décrit la géométrie (axes, plan d’écoulement, …), établir le champ de vitesse engendré par un fil tourbillonnaire rectiligne. Décrire le type d’écoulement engendré.
+- [Q3.6](Questions/Q3.6.md) Définir la notion de taux de déformation. Quel est le lien avec le tenseur de contraintes des forces de surface ?
+- [Q3.7](Questions/Q3.7.md) Simplifier le bilan des termes visqueux dans les 3 dimensions dans le cadre d’un fluide newtonien incompressible.
+- [Q3.8](Questions/Q3.8.md) Quelle est la différence entre le système d’équations de Navier‐Stokes et d’Euler ? Quels sont le domaine d’application et/ou les limitations des équations d’Euler ?
+- [Q3.9](Questions/Q3.9.md) **En rappelant les hypothèses nécessaires à chaque étape du développement, transformer le système d’équations de Navier-Stokes en sa forme de Lamb, faire apparaître la fonction de Helmholtz puis établir la formule de Bernoulli**
+- [Q3.10](Questions/Q3.10.md) Quelles sont les inconnues du système d’équations de Navier‐Stokes ? Le système est‐il fermé ?
+- [Q4.1](Questions/Q4.1.md) Expliquer, sur base de l’équation de conservation de la masse/de la quantité de mouvement, comment se réalise la mise sous forme adimensionnelle des équations.
+- [Q4.2](Questions/Q4.2.md) Citer quatre nombres adimensionnels du système général de la mécanique des fluides. Donner la signification physique pour chaque nombre adimensionnel.
+- [Q4.3](Questions/Q4.3.md) Le nombre de Reynolds est important pour caractériser le type d’écoulement. Que représente-t-il ? Quelles sont ses dimensions ? Donner quelques seuils de valeurs de ce nombre et les écoulements associés.
+- [Q4.4](Questions/Q4.4.md) **Rappeler le théorème de Vaschy-Buckingham et détailler sa mise en application pour déterminer l'expression usuelle de la traînée d'un corps plongé dans un écoulement.**
+- [Q4.5](Questions/Q4.5.md) Expliquer le principe de similitude pour des essais en laboratoire et expliquer à quelle échelle une campagne d’essais physiques doit être menée pour conserver la représentativité à la fois des forces d’inertie, de viscosité et de gravité.
