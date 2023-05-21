@@ -15,3 +15,7 @@
 
 	Sous sa forme alternative :
 	$$\frac{D \rho}{D t} + \rho \frac{\partial  u_j}{\partial x_j} = 0$$
+
+	Sous sa forme adimensionnelle :
+
+	$$\frac{L_c}{t_c u_c} \frac{\partial \bar \rho }{\partial \bar t } + \frac{\partial}{\partial \bar x_j } (\bar \rho \bar u_j ) = 0$$
