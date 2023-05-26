@@ -10,3 +10,12 @@ $$
      \end{array}
 \right.
 $$
+
+$$
+\left\{
+     \begin{array}{ll}
+		\frac{\partial u_i}{\partial x_j} = 0\\
+	     \frac{\partial u_j}{\partial t} + \frac{\partial (u_i u_j)}{\partial x_j}= \frac{1}{\rho} F_i -\frac{1}{\rho} \frac{\partial p^*}{\partial x_i} + \nu \frac{\partial^2 u_i}{\partial x_j^2}
+     \end{array}
+\right.
+$$
