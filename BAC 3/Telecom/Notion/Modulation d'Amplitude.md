@@ -26,3 +26,18 @@ Avec :
 - $M(f+f_c)$ ,le [Signal modulant](Signal%20modulant.md) décalé de $f_c$ vers la gauche
 
 ![](attachments/Pasted%20image%2020230601104450.png)
+
+## Démodulation ([cohérente](Démodulation%20cohérente.md))
+
+étapes :
+1. multiplier le signal $s(t)$ par la [Porteuse](Porteuse.md) : $s(t)\cos{(2\pi f_c t)}$
+2. faire un filtrage passe bas pour supprimer ce qu'on ne veut pas
+
+![](attachments/Pasted%20image%2020230602091638.png)
+
+## Variantes
+
+- [Modulation DSB-SC](Modulation%20DSB-SC.md)
+- [Modulation QAM](Modulation%20QAM.md)
+- [Modulation SSB](Modulation%20SSB.md)
+- [Modulation VSB](Modulation%20VSB.md)
