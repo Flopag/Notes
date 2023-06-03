@@ -23,9 +23,11 @@ Courbe de quantification uniforme :
 avec :
 - $\Delta$, le pas de quantification
 - $n$, le nombre de niveaux de quantification
-- $B$, le nombre de bits par échantillon
+- $B$, le nombre de bits par échantillon :
 
 $$B:log_2(n)$$
+
+
 
 $$Q(x)=\Delta \left\lfloor \frac{x}{\delta} + \frac{1}{2}\right\rfloor$$
 
