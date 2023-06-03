@@ -56,7 +56,7 @@ $$W = \frac{\log_2{L} \ f_s}{2}$$
 
 La densité spectral vaut :
 
-$$\gamma_s(f)= ||\Phi (f)||^2 \ \frac{1}{T} [\sigma^2_A + \mu^2_A \sum_{m=-\infty}^{+\infty}{\frac{1}{T} \delta \ (f-\frac{m}{T})}]$$
+$$\gamma_s(f)= ||\Phi (f)||^2 \ \frac{1}{T} \left[\sigma^2_A + \mu^2_A \sum_{m=-\infty}^{+\infty}{\frac{1}{T} \delta \ (f-\frac{m}{T})}\right]$$
 
 il faut trouver chaque termes puis les remplacer:
 - $\Phi (f) = F\{ \phi (t)\} = F\{ rect(\frac{t-(T_b/2)}{T_b})\}$
