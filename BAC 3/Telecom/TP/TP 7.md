@@ -44,13 +44,13 @@ On a que la bande de base est  :
 
 $$W = \frac{1}{2T_{imp}}$$
 
-Pour une modulation PAM-$n$ :
+Pour une modulation PAM-$k$ :
 
-$$T_{imp} = T_b$$
+$$T_{imp} = log_2(k) \ T_b$$
 
-On a vu au TP 6 que $\frac{1}{T_b} = B \ f_s = \log_2{L} \ f_s$ . On a donc :
+On a vu au TP 6 que $\frac{1}{T_b} = B \ f_s = \log_2{n} \ f_s$ . On a donc :
 
-$$W = \frac{\log_2{L} \ f_s}{2}$$
+$$W = \frac{\log_2{L} \ f_s}{2 \ log_2(k)}$$
 
 ### Calculer la densité spectrale de puissance du signal
 

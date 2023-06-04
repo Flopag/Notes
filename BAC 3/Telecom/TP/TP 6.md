@@ -25,7 +25,7 @@ avec :
 - $n$, le nombre de niveaux de quantification
 - $B$, le nombre de bits par échantillon :
 
-$$B:log_2(n)$$
+$$B=log_2(n)$$
 
 
 
