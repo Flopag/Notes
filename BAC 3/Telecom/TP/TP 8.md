@@ -17,7 +17,7 @@ $$y(t) = x(t) \otimes h(t)$$
 ### Probabilité d'erreur
 
 Dans le cas NRZ :
-$$P_e = \frac{1}{2} erfc\left( \sqrt{\frac{E_b}{N_0}} \right)$$
+$$P_e = \frac{1}{2} erfc\left( \sqrt{\frac{E_b}{N_0}} \right) = \frac{1}{2} \left(1-erf\left(\sqrt{\frac{E_b}{N_0}}\right)\right)$$
 $$E_b = A^2 T_b$$
 
 avec :
