@@ -17,9 +17,25 @@ Il y a trois modulation possible :
 
 ![](attachments/Pasted%20image%2020230602095439.png)
 
-## "Modulation" (codage)
+## Modulation numérique
 
-C'est pas vraiment de la modulation mais plus du codage
+Il y a deux grande catégories de modulation numérique
+
+### Modulation cohérente
+
+La fréquence de la porteuse $f_c$ est un multiple entier du rythme démission $1/T_b$ :
+
+$$f_c = \frac{n}{T_b}$$
+
+![](attachments/Pasted%20image%2020230605085443.png)
+
+### Modulation incohérente
+
+La fréquence de la porteuse $f_c$ n'est pas un multiple entier du rythme d'émission $1/T_b$
+
+## "Modulation" (codage?)
+
+C'est pas vraiment de la modulation mais plus du codage (?)
 
 ### Analogique
 

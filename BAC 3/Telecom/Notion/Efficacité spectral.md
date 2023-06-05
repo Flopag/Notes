@@ -7,3 +7,4 @@ $$\eta = \frac{f_b}{W}$$
 Quelque cas pratique :
 - GSM : $\eta = 1$
 - Codage [NRZ](Codage.md) : $\eta = 1.6$
+- Modulation d'amplitude à deux états d'amplitude (ASK-2) : $\eta = 0,8$
