@@ -51,3 +51,11 @@ avec :
 1. Déterminer  $\frac{E_b}{N_0}$ à l'aide de l'erreur maximal
 2. Déterminer $T_b$
 3. $R_b = 1/T_b$
+
+### Calculer la puissance du signal modulé
+
+1. Déterminer la [Densité spectrale de puissance](../Notion/Densité%20spectrale%20de%20puissance.md)
+2. En déterminer son [autocorrelation](../Notion/Densité%20spectrale%20de%20puissance.md) en $t=0$
+3. $P = \Gamma(t=0) \ [W]$
+4. $P = 10 log_{10}(\Gamma(t=0)) \ [dBW]$
+5. $P = 10 log_{10}(\Gamma(t=0)) + 30 \ [dBm]$
