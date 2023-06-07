@@ -11,7 +11,7 @@ Caractéristique importante :
 
 - Emetteur :
 	- Le débit en $[b/s]$
-	- Les niveaux physiques associés à chaque bit(0 ou 1) ou groupe de bit
+	- Les niveaux physiques associés à chaque bit (0 ou 1) ou groupe de bit
 	- L'encombrement spectral
 		- [Efficacité spectral](Efficacité%20spectral.md)
 - Récepteur
@@ -83,8 +83,8 @@ On considère les signals [NRZ](Codage.md) reçu du type :
 $$x(t) = 
 \left\{ 
 \begin{array} &
-	g_0(t)+n,(t) = -V+n(t) & pour 0\\
-	g_1(t)+n,(t) =+V+n(t) & pour 1
+	g_0(t)+n,(t) = -V+n(t) & pour \ 0\\
+	g_1(t)+n,(t) =+V+n(t) & pour \ 1
 \end{array}
 \right.$$
 

@@ -1,5 +1,7 @@
 # Signal modulant
 
+Un signal modulant est un signal contenant de l'informations
+
 Signal modulant normalisé $m(t)$ d'un signal d'entrée $x(t)$ :
 
 $$m(t) = \frac{x(t)}{x_{max}}$$

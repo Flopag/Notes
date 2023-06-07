@@ -20,7 +20,7 @@ indice de modulation :
 
 $$\beta = \frac{\Delta f}{f_m}$$
 
-Bande passante du signal modulé FM (règle de Carson) :
+Bande passante du signal modulé FM (règle de Carson) : #Important 
 
 $$B_T \simeq 2(\Delta f + f_m)$$
 
