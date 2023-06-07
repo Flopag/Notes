@@ -4,6 +4,8 @@
 
 ### Codes blocs linéaire
 
+Un code est systématique si le message se retrouve inchangé dans le mot de code correspondant
+
 - Bit de parité :
 	- $P=1$ si $m$ contient un nombre impaire de $1$
 	- $P=0$ si $m$ contient un nombre paire de $1$
@@ -93,4 +95,6 @@
 1. Construire le tableau de l'algorithme de correction de l'erreur ($k$ colonnes et 2 lignes)
 	1. Remplir la première ligne de chaque valeur de $\vec c$ possible
 	2. Remplir la deuxième ligne de vecteur syndrome $\vec s$ avec une erreur choisis arbitrairement (le but est de tester si l'erreur choisis est celle qui a été produite)
-2. Trouver la bonne valeur de l'erreur (plusieurs bonnes réponses)
+2. Trouver la bonne valeur de l'erreur (trouver une bonne réponse par syndrome)
+
+technique : trouver l'erreur qui mène a chaque valeur de $c$ possible (en partant de $c$) puis prendre ceux qui ont le moins de 1
