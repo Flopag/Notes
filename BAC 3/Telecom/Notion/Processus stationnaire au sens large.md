@@ -17,6 +17,6 @@ Un processus aléatoire est stationnaire au sens large si il vérifie les deux c
 Soit $X(t)$ up processus stochastique stationnaire au sens large, $H(f)$ la transmittance d'un filte linéaire et $Y(t)$ le processus à la sortie du système linéaire (filtre)
 
 Propriétés :
-- Théorème : $\mu_Y = \mu_C \ H(f=0)$
+- Théorème : $\mu_Y = \mu_X \ H(f=0)$
 - $Y(t)$ est un processus stationnaire au sens large
-- Théorème (Wiener-kintchine) : $\gamma_Y(f) = ||H(f)||^2 \gamma_X(f)$
+- [Théorème de Wiener-Kintchine](Théorème%20de%20Wiener-Kintchine.md) : $\gamma_Y(f) = ||H(f)||^2 \gamma_X(f)$

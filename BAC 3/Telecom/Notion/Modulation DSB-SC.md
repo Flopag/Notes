@@ -4,6 +4,7 @@ La modulation DSB-SC est une variation de la [Modulation d'Amplitude](Modulation
 
 Avantages :
 - On a une économie de puissance par apport à la [Modulation d'Amplitude](Modulation%20d'Amplitude.md) puisqu'il n'y a pas de [Porteuse](Porteuse.md)
+
 Inconvénient :
 - L'absance de résidu de [Porteuse](Porteuse.md) peut compliquer la démodulation cohérente puisque le récepteur va devoir le produire lui même
 

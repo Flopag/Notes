@@ -16,5 +16,5 @@ $$Prob(\vec r|\vec c_i) = max_{\vec c_j}\{ Prob(\vec r| \vec c_j) \}$$
 Algorithme :
 1. Calcul du [syndrome](Codage%20par%20blocs.md) $\vec s = \vec r H^T$ sur base du signal reçu $\vec r$
 2. Détermination du vecteur d'erreur $\vec e_i$ correspondant
-3. Estimation du mot de code réel au moyen de $\vec c = \vec r + \vec e_i$ (_j'ai recopié des slide mais je trouve $\vec c = \vec r - \vec e_i$, peut-être ne typo???_)
+3. Estimation du mot de code réel au moyen de $\vec c = \vec r + \vec e_i$ (le $+$ correspond a un _or_ logique)
 

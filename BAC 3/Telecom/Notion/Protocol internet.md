@@ -22,7 +22,7 @@ Envoi avec accusé de réception (ACK) et mécanisme de régulation de la vitess
 
 Après établissement d'une connection TCP, on reçois par un port fixe et on envoi vers un port fixe
 
-## User Datagram Protocol
+## User Datagram Protocol (UDP)
 
 Envoie sans accusé de réception mais réduit mes délais (pas de garantit de la réception $\rightarrow$ best effort)
 
