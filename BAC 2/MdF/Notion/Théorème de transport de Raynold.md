@@ -1,6 +1,6 @@
 # Théorème de transport de Reynold
 
-![](attachments/Pasted%20image%2020230519093330.png)
+![](../Questions/attachments/Pasted%20image%2020230519093330.png)
 
 ---
 

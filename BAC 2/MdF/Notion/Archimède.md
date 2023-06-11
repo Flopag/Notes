@@ -3,6 +3,6 @@
 $$\vec{F_a} = -\rho_{liquide} \vec{g}V $$
 
 avec :
-- $\rho_{liquide}$ la [Masse Volumique](../Notion/Masse%20Volumique.md) du fluide
+- $\rho_{liquide}$ la [Masse Volumique](Masse%20Volumique.md) du fluide
 - $g$ la gravité
 - $V$ le volume immergé
