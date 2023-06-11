@@ -2,7 +2,12 @@
 
 ## Questions 
 
+- [Q1](Questions/Q1.md) How does an OS interact with its environment?
 - [Q2](Questions/Q2.md) What happens when you switch your computer on?
+- Q3 Describe the concept of a process and its implications on the OS.
+- Q4 You type emacs at the terminal prompt. What happens when you hit the return key?
+- Q5 Describe mechanisms for inter-process communications(IPC).
+- Q6 Discuss the principles of multi-threading.
 
 ## Summary of the course
 
@@ -56,5 +61,9 @@
 	- [Process scheduler](Notion/Process%20scheduler.md)
 	- [Process](Notion/Process.md)
 	- [Thread](Notion/Thread.md)
-
-
+- Ch 4 : Threads
+	- [Kernel mode](Notion/Concepts/Kernel%20mode.md)
+	- [User mode](Notion/Concepts/User%20mode.md)
+	- [Multicore](Notion/Concepts/Multicore.md)
+	- [Thread](Notion/Thread.md)
+	- [TLS](Notion/TLS.md)
