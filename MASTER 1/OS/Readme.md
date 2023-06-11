@@ -31,4 +31,5 @@
 	- [System call](Notion/System%20call.md)
 	- [System daemons](Notion/System%20daemons.md)
 	- [System program](Notion/System%20program.md)
-g
+- Ch 2 : OS services and structure
+	- 
