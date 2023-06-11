@@ -4,10 +4,10 @@
 
 - [Q1](Questions/Q1.md) How does an OS interact with its environment?
 - [Q2](Questions/Q2.md) What happens when you switch your computer on?
-- Q3 Describe the concept of a process and its implications on the OS.
-- Q4 You type emacs at the terminal prompt. What happens when you hit the return key?
-- Q5 Describe mechanisms for inter-process communications(IPC).
-- Q6 Discuss the principles of multi-threading.
+- [Q3](Questions/Q3.md) Describe the concept of a process and its implications on the OS.
+- [Q4](Questions/Q4.md) You type emacs at the terminal prompt. What happens when you hit the return key?
+- [Q5](Questions/Q5.md) Describe mechanisms for inter-process communications(IPC).
+- [Q6](Questions/Q6.md) Discuss the principles of multi-threading.
 
 ## Summary of the course
 

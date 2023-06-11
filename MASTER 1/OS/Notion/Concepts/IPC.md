@@ -38,3 +38,13 @@ If a mailbox received a message to share, who gets the message? :
 - Allow a link to be associated with at most two processes
 - Allow only one process at a time to execute a receive operation
 - Allow the system to select arbitrarily the receiver. Sender is notified who the receiver was.
+
+An other way to do message passing (direct communication) is using **pipes**. A pipe acts as a conduit allowing two processes to communicate. There is two kinds of pipes :
+
+- Ordinary pipes : copie end cannot be acquired outside the process that created it. Typically, a parent process creates a pipe and uses it to communicate with a child process that it created. It allow to communicate in standard producer-consumer style :
+	- Producer writes to one end (**write-end**)
+	- Consumer reads from the other end (**read-end**)
+	- So, it is unidirectional
+- Named pipes : can be accessed without a parent-child relationship and is bidirectional
+
+![](attachments/Pasted%20image%2020230611212555.png)

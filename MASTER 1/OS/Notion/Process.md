@@ -17,7 +17,7 @@ A process can be in five state :
 - New : The process is being created
 - Running : Instructions are being executed
 - Waiting : The process is waiting for some event to occur
-- Ready ; The process is waiting to be assigned to a processor
+- Ready : The process is waiting to be assigned to a processor
 - Terminated : The process has finished execution
 
 ![](attachments/Pasted%20image%2020230611135619.png)
