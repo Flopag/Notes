@@ -1,6 +1,10 @@
 # OS
 
-## Summary
+## Questions 
+
+- [Q2](Questions/Q2.md) What happens when you switch your computer on?
+
+## Summary of the course
 
 - Ch 1 : Introduction
 	- [Caching](Notion/Concepts/Caching.md)
@@ -32,4 +36,14 @@
 	- [System daemons](Notion/System%20daemons.md)
 	- [System program](Notion/System%20program.md)
 - Ch 2 : OS services and structure
-	- 
+	- [System Boot](Notion/Concepts/System%20Boot.md)
+	- [Physical memory](Notion/Concepts/Physical%20memory.md)
+	- [ABI](Notion/ABI.md)
+	- [LKM](Notion/LKM.md)
+	- [Linker](Notion/Linker.md)
+	- [Loader](Notion/Loader.md)
+	- [Operating system](Notion/Operating%20system.md)
+	- [System call](Notion/System%20call.md)
+	- [System services](Notion/System%20services.md)
+
+
