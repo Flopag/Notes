@@ -19,7 +19,6 @@
 	- [Multiprocessing](Notion/Concepts/Multiprocessing.md)
 	- [Timesharing](Notion/Concepts/Timesharing.md)
 	- [User mode](Notion/Concepts/User%20mode.md)
-	- [Virtual memory](Notion/Concepts/Virtual%20memory.md)
 	- [API](Notion/API.md)
 	- [Application program](Notion/Application%20program.md)
 	- [Bootstrap program](Notion/Bootstrap%20program.md)
@@ -42,7 +41,6 @@
 	- [System program](Notion/System%20program.md)
 - Ch 2 : OS services and structure
 	- [System Boot](Notion/Concepts/System%20Boot.md)
-	- [Physical memory](Notion/Concepts/Physical%20memory.md)
 	- [ABI](Notion/ABI.md)
 	- [LKM](Notion/LKM.md)
 	- [Linker](Notion/Linker.md)
@@ -67,3 +65,4 @@
 	- [Multicore](Notion/Concepts/Multicore.md)
 	- [Thread](Notion/Thread.md)
 	- [TLS](Notion/TLS.md)
+- Ch 6 : Main Memory
