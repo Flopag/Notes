@@ -8,6 +8,9 @@
 - [Q4](Questions/Q4.md) You type emacs at the terminal prompt. What happens when you hit the return key?
 - [Q5](Questions/Q5.md) Describe mechanisms for inter-process communications(IPC).
 - [Q6](Questions/Q6.md) Discuss the principles of multi-threading.
+- Q7 Describe how dynamic memory allocation is supported in the kernel.
+- Q8 Can a program whose logical address space id 4GB run on a 2GB-RAM machine? If yes, how?
+- Q9 Would you expect some performance difference between mergesort and heapsort, while both have O(n log n) complexity? Why?
 
 ## Summary of the course
 
@@ -66,3 +69,19 @@
 	- [Thread](Notion/Thread.md)
 	- [TLS](Notion/TLS.md)
 - Ch 6 : Main Memory
+	- [Caching](Notion/Concepts/Caching.md)
+	- [Fragmentation](Notion/Concepts/Fragmentation.md)
+	- [Contiguous allocation](Notion/Concepts/Contiguous%20allocation.md)
+	- [Multiple allocation](Notion/Concepts/Multiple%20allocation.md)
+	- [Paging](Notion/Concepts/Paging.md)
+	- [Swapping](Notion/Concepts/Swapping.md)
+	- [Address space](Notion/Address%20space.md)
+	- [Linker](Notion/Linker.md)
+	- [Loader](Notion/Loader.md)
+	- [Logical address space](Notion/Logical%20address%20space.md)
+	- [MMU](Notion/MMU.md)
+	- [Page table](Notion/Page%20table.md)
+	- [Physical address space](Notion/Physical%20address%20space.md)
+	- [TLB](Notion/TLB.md)
+	- [Virtual address space](Notion/Virtual%20address%20space.md)
+- Ch 7 : Virtual Memory
