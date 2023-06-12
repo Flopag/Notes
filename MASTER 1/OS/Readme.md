@@ -11,6 +11,8 @@
 - [Q7](Questions/Q7.md) Describe how dynamic memory allocation is supported in the kernel.
 - [Q8](Questions/Q8.md) Can a program whose logical address space id 4GB run on a 2GB-RAM machine? If yes, how?
 - [Q9](Questions/Q9.md) Would you expect some performance difference between mergesort and heapsort, while both have O(n log n) complexity? Why?
+- 
+- [Q15](Questions/Q15.md) Describe the different types of virtualization and discuss their pros and cons.
 
 ## Summary of the course
 
@@ -95,3 +97,4 @@
 	- [Page fault](Notion/Page%20fault.md)
 	- [Virtual address space](Notion/Virtual%20address%20space.md)
 - Virtualisation
+	- [Virtualisation](Notion/Concepts/Virtualisation.md)
