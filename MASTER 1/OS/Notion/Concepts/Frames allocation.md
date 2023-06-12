@@ -4,6 +4,10 @@ Fixed allocation :
 - Equal allocation : each [Process](../Process.md) gets the same amount of [frame](Paging.md)
 - Proportional allocation : each [Process](../Process.md) gets an amount of [frame](Paging.md) propositional to its size
 
+If there is to much [frames](Paging.md) to allocate, the system could make **trashing** (Use all its time to make allocation and don't compute anything). It is, often, due to a big amount of [multi programming](../Thread.md) 
+
+![](attachments/Pasted%20image%2020230612173931.png)
+
 ## Buddy system allocation
 
 [Main memory](../Main%20memory.md) is allocated using power-of-2 size
