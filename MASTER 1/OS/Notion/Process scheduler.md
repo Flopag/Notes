@@ -1,6 +1,6 @@
 # Process scheduler
 
-The process scheduler selects among available processes for next execution on one [CPU](CPU.md). It's goal is to maximise [CPU](CPU.md) use
+The process scheduler selects among available [processes](Process.md) to [allocate](Concepts/Frames%20allocation.md) and  puts them in queues. its goal is to maintain the system stable (not the same than the [CPU scheduler](CPU%20scheduler.md))
 
 To do its job, it puts [PCB](PCB.md) in **scheduling queues** :
 

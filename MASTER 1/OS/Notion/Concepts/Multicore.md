@@ -8,3 +8,7 @@ Parallelism implies a system has resources perform more than one task simultaneo
 - Task parallelism : distributing [Threads](../Thread.md) across cores, each thread performing unique operation
 
 ![](attachments/Pasted%20image%2020230611165925.png)
+
+**Chip-multithreading (CMT)** assigns each core multiple hardware [Thread](../Thread.md)
+
+![](attachments/Pasted%20image%2020230613162655.png)

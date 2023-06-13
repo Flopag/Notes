@@ -18,7 +18,7 @@
 
 - Ch 1 : Introduction
 	- [Caching](Notion/Concepts/Caching.md)
-	- [CPU scheduling](Notion/Concepts/CPU%20scheduling.md)
+	- [CPU scheduler](Notion/CPU%20scheduler.md)
 	- [I O Subsystem](Notion/Concepts/I%20O%20Subsystem.md)
 	- [Kernel mode](Notion/Concepts/Kernel%20mode.md)
 	- [Multiprocessing](Notion/Concepts/Multiprocessing.md)
@@ -70,6 +70,8 @@
 	- [Multicore](Notion/Concepts/Multicore.md)
 	- [Thread](Notion/Thread.md)
 	- [TLS](Notion/TLS.md)
+- Ch 5 : Scheduling
+	- 
 - Ch 6 : Main Memory
 	- [Caching](Notion/Concepts/Caching.md)
 	- [Fragmentation](Notion/Concepts/Fragmentation.md)

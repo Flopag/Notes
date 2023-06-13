@@ -8,7 +8,7 @@ It is composed of :
 - Process ID (**pid**)
 - Program counter
 - CPU registers : copy of contents of all register of the process
-- [CPU scheduling](Concepts/CPU%20scheduling.md) information
+- [CPU scheduler](CPU%20scheduler.md) information
 - Memory management information : memory allocated to the process
 - Accounting information : CPU used, clock time elapsed since start, ...
 - [I/O](I%20O%20devices.md) status information : [I/O devices](I%20O%20devices.md) allocated to process, list of open files

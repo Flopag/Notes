@@ -6,5 +6,5 @@ Some rules :
 
 - Response time should be < 1 second
 - Each user hat at least one program in memory (called [Process](../Process.md))
-- if several [Processes](../Process.md) ready to run at the same time, use of [CPU scheduling](../Concepts/CPU%20scheduling.md)
+- if several [Processes](../Process.md) ready to run at the same time, use of [CPU scheduler](../CPU%20scheduler.md)
 - [Virtual memory](../Virtual%20address%20space.md) allows execution of processes not completely in memory
