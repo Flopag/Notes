@@ -71,7 +71,10 @@
 	- [Thread](Notion/Thread.md)
 	- [TLS](Notion/TLS.md)
 - Ch 5 : Scheduling
-	- 
+	- [CPU scheduler](Notion/CPU%20scheduler.md)
+	- [Multicore](Notion/Concepts/Multicore.md)
+	- [Dispacher](Notion/Dispacher.md)
+	- [Process scheduler](Notion/Process%20scheduler.md)
 - Ch 6 : Main Memory
 	- [Caching](Notion/Concepts/Caching.md)
 	- [Fragmentation](Notion/Concepts/Fragmentation.md)
@@ -98,5 +101,6 @@
 	- [Main memory](Notion/Main%20memory.md)
 	- [Page fault](Notion/Page%20fault.md)
 	- [Virtual address space](Notion/Virtual%20address%20space.md)
+- Ch 10 : Mass storage[Virtual address space](Notion/Virtual%20address%20space.md)
 - Virtualisation
 	- [Virtualisation](Notion/Concepts/Virtualisation.md)
