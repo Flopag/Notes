@@ -1,8 +1,5 @@
 # OS
 
-- [ ] test
-- [x] a
-
 ## Questions 
 
 - [Q1](Questions/Q1.md) How does an OS interact with its environment?
@@ -14,7 +11,11 @@
 - [Q7](Questions/Q7.md) Describe how dynamic memory allocation is supported in the kernel.
 - [Q8](Questions/Q8.md) Can a program whose logical address space id 4GB run on a 2GB-RAM machine? If yes, how?
 - [Q9](Questions/Q9.md) Would you expect some performance difference between mergesort and heapsort, while both have O(n log n) complexity? Why?
+- [Q10](Questions/Q10.md) What is a directory and what is its main purpose?
+- [Q11](Questions/Q11.md) Discuss the general organisation of a filesystem and its implementation
 - [Q12](Questions/Q12.md) Discuss the general organisation of mass storage and its impact on OS design.
+- Q13 A USB stick is inserted in an up-and-running computer. What happens next?
+- Q14 Your mother-in-law wants to buy a new laptop but hesitates between two different specs (available at the exam). Which one would you recommend and why? Choose wisely!
 - [Q15](Questions/Q15.md) Describe the different types of virtualization and discuss their pros and cons.
 
 ## Summary of the course
@@ -114,6 +115,9 @@
 	- [SCSI](Notion/SCSI.md)
 	- [SSD](Notion/SSD.md)
 - Ch 11 : File system interface
-	- 
+	- [Directory](Notion/Directory.md)
+	- [File](Notion/File.md)
+	- [File system](Notion/File%20system.md)
+	- [Magnetic disks](Notion/Magnetic%20disks.md)
 - Virtualisation
 	- [Virtualisation](Notion/Concepts/Virtualisation.md)
