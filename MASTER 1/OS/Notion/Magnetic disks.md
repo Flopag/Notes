@@ -16,6 +16,8 @@ Disk drives are addressed as large 1-dimensional arrays of **logical blocks**, w
 
 Disk **bandwidth** is the total number of bytes transferred, divided by the total time between the first request for service and the completion of the last transfer
 
+Disk or partition can be used without [File system](File%20system.md) (**raw**) or with a [File system](File%20system.md) (**formatted**). Entity containing [file system](File%20system.md) is known as a **volume**. These volume tracks, each, their [File system](File%20system.md) info in **device [directory](Directory.md)** or **volume table of contents**
+
 ## Disk scheduling
 
 see [Disk scheduling](Concepts/Disk%20scheduling.md)

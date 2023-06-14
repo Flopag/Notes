@@ -1,6 +1,6 @@
 # Main memory
 
-The main memory is the only one large storage that the [CPU](CPU.md) can access **directly**. It is random access and volatile
+The main memory is the only one large storage that the [CPU](CPU.md) can access **directly**. It is random access and volatile (made of RAM and other fast random access memory)
 
 ## Non Uniforme Memory  Access (NUMA)
 
