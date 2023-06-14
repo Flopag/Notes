@@ -120,6 +120,8 @@
 	- [File system](Notion/File%20system.md)
 	- [Magnetic disks](Notion/Magnetic%20disks.md)
 - Ch 11 : Implementing File Systems
-	- 
+	- [Files Allocation](Notion/Concepts/Files%20Allocation.md)
+	- [File system](Notion/File%20system.md)
+	- [Page cache](Notion/Page%20cache.md)
 - Virtualisation
 	- [Virtualisation](Notion/Concepts/Virtualisation.md)
