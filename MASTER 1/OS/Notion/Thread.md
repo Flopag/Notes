@@ -1,6 +1,6 @@
 # Thread
 
-A thread is a way to execute a single process with multiple program counter. Threads share address the address space of the [Process](Process.md) except the stack and thread-local memory
+A thread is a way to execute a single process with multiple program counter. Threads share the [Address space](Address%20space.md) of the [Process](Process.md) except the stack and thread-local memory (register, etc)
 
 Single vs multithreaded [Processes](Process.md) :
 

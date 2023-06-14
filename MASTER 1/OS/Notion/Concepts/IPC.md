@@ -1,14 +1,14 @@
 # InterProcess Communication (IPC)
 
-There is two kind of communication between [processes](../Process.md) :
+There is two kinds of communication between [processes](../Process.md) :
 
 ![](attachments/Pasted%20image%2020230611150442.png)
 
 ## Shared memory
 
-An area of memory shared among the [processes](../Process.md) that wish to communicate. This communication is under the control of the users [processes](../Process.md) and not the [Operating system](../Operating%20system.md)
+An area of memory is shared among the [processes](../Process.md) that wish to communicate. This communication is under the control of the users [processes](../Process.md) and not the [Operating system](../Operating%20system.md)
 
-it can be done by give a copy of the address space from fork
+it can be done by giving a copy of the [Address space](../Address%20space.md) from fork
 
 The major issues is concurrency (see parallel programming course) 
 
@@ -21,7 +21,7 @@ Message passing can be :
 - **Blocking** : sender/receiver is blocked until the message is received/available (if both, sender and receiver are blocking, it is called a **rendezvous**)
 - **Non-blocking** : sender/receiver sends/receiver the message and continue (the receiver receives NULL if there is no message)
 
-**Direct communication** are made automatically between two [Processes](../Process.md). It communicate tanks to :
+**Direct communication** are made automatically between two [Processes](../Process.md). It communicate thanks to :
 
 - `send(P, message)` : send a message to [Process](../Process.md) P
 - `receive(Q, message)` : receive a message from [Process](../Process.md) Q
@@ -31,7 +31,7 @@ Message passing can be :
 - Create a new mailbox
 - Delete a mailbox
 - `send(A, message)` : send a message to mailbox A
-- `receive(A, message` : receive a message from mailbox A
+- `receive(A, message)` : receive a message from mailbox A
 
 If a mailbox received a message to share, who gets the message? :
 
@@ -45,6 +45,6 @@ An other way to do message passing (direct communication) is using **pipes**. A 
 	- Producer writes to one end (**write-end**)
 	- Consumer reads from the other end (**read-end**)
 	- So, it is unidirectional
-- Named pipes : can be accessed without a parent-child relationship and is bidirectional
+- Named pipes : can be accessed without a parent-child relationship (just need the name) and is bidirectional
 
 ![](attachments/Pasted%20image%2020230611212555.png)

@@ -22,7 +22,7 @@ When smaller allocation needed than is available, current chunk split into two b
 
 ## Slap allocation (used by malloc)
 
-A slab is one or more [frames](Paging.md). a slab can be filled with multiple object (exemple : structure, etc)
+A slab is one or more contiguous [frames](Paging.md). a slab can be filled with multiple object (exemple : structure, etc)
 
 A cache consists of one or more slabs
 

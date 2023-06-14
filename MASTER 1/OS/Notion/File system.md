@@ -1,6 +1,6 @@
 # File system
 
-system that handle [Files](File.md) and [Directory](Directory.md) on [disk](Magnetic%20disks.md) or [partitions](Magnetic%20disks.md)
+system that handle [Files](File.md) and [Directories](Directory.md) on [disk](Magnetic%20disks.md) or [partitions](Magnetic%20disks.md)
 
 ![](attachments/Pasted%20image%2020230614100057.png)
 ## File Sharing
