@@ -14,7 +14,7 @@
 - [Q10](Questions/Q10.md) What is a directory and what is its main purpose?
 - [Q11](Questions/Q11.md) Discuss the general organisation of a filesystem and its implementation
 - [Q12](Questions/Q12.md) Discuss the general organisation of mass storage and its impact on OS design.
-- Q13 A USB stick is inserted in an up-and-running computer. What happens next?
+- [Q13](Questions/Q13.md) A USB stick is inserted in an up-and-running computer. What happens next?
 - Q14 Your mother-in-law wants to buy a new laptop but hesitates between two different specs (available at the exam). Which one would you recommend and why? Choose wisely!
 - [Q15](Questions/Q15.md) Describe the different types of virtualization and discuss their pros and cons.
 

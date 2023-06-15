@@ -58,7 +58,7 @@ Disadvantages :
 
 ### System virtualisation, Binary rewriting
 
-To avoid privileged issues, privileged instruction and jumps (needs to scan target location) are emulated.
+To avoid privileged issues, privileged instruction and jumps (needs to scan target location) are emulated
 
 When these instruction are execute, their are replaced by other one thanks to breakpoint registers
 
