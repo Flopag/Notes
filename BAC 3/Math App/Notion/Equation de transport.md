@@ -1,4 +1,4 @@
-# EDP linéaire du première ordre
+# EDP linéaire du première ordre (Equation de transport)
 
 ## A coefficients constant
 
@@ -28,7 +28,7 @@ On a donc la solution de l'[EDP](EDP.md) qui devient :
 
 $$u(x, y) = f(cste) = f(bx - ay)$$
 
-On a plusieurs solution, si on veut avoir une solution unique, on va devoir avoir des condition auxiliaires
+On a plusieurs solution, si on veut avoir une solution unique, on va devoir avoir des condition auxiliaires ([Condition initiale](Condition%20initiale.md) , [Condition limites](Condition%20limites.md))
 
 ## A coefficient variable
 
