@@ -22,6 +22,10 @@
 - [Problème bien posé](Notion/Problème%20bien%20posé.md)
 - [Système d'EDP du première ordre](Notion/Système%20d'EDP%20du%20première%20ordre.md)
 
+### Cours 3 : Equation d'onde
+
+- [Equation d'onde](Notion/Equation%20d'onde.md)
+
 ## Travaux Pratique
 
 - [TP 1](TP/TP%201.md)

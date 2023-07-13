@@ -2,7 +2,7 @@
 
 Le champ électrique $\vec E$ en un point de l'espace est la [force de Coulomb](Loi%20de%20Coulomb.md) $\vec F$ divisé par la [Charge](Charge.md) $Q$ :
 
-$$\vec E = \frac{\vec F}{Q} = \frac{1}{4\pi \varepsilon_0}\frac{q}{r_{Qq}²} \ \hat r_{Qq}$$
+$$\vec E = \frac{\vec F}{Q} = \frac{1}{4\pi \varepsilon_0}\frac{q}{r_{Qq}²} \ \hat r_{Qq} \left[\frac{V}{m}\right]$$
 
 ![](attachments/Pasted%20image%2020230712141801.png)
 
@@ -38,14 +38,4 @@ avec
 
 ## Rotationnel du champ électrique
 
-Sur une courbe fermée $C$ :
-
-$$\oint_C{\vec E \bullet d\vec l} = 0$$
-
-En utilisant le [Théorème de Stokes](Théorème%20de%20Stokes.md), on obtient :
-
-$$\int_S{(\vec \nabla \times \vec E) \bullet d\vec S} = 0$$
-
-La surface $S$ est quelconque, on obtient donc :
-
-$$\vec \nabla \times \vec E = 0$$
+[Loi de Stockes](Loi%20de%20Stockes.md)

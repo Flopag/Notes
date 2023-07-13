@@ -1,0 +1,17 @@
+# Déplacement électrique
+
+On considère un système contenant des [Charge](Charge.md) [libres](Conducteur.md) et [liées](Conducteur.md). Le déplacement électrique $\vec D$ peut être défini comme :
+
+$$\vec D = \varepsilon_0\vec E+\vec P \left[\frac{C}{m²}\right]$$
+
+La divergence de $\vec D$ ne dépend que des [Charge](Charge.md) libre :
+
+$$\vec \nabla \bullet \vec D = \rho_{libre}$$
+
+Après application du [Théorème de la divergence de Gauss](Théorème%20de%20la%20divergence%20de%20Gauss.md) :
+
+$$\int_S{\vec D\bullet d\vec S}=Q_{libre}$$
+
+/ ! \\ $\vec D$ n'a pas les même propriété que le [Champ électrique](Champ%20électrique.md) $\vec E$, $\vec D$ ne dérive pas d'un potentiel
+
+*Demo ch 2 p34*
