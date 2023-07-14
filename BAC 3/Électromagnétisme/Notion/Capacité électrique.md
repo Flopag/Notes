@@ -1,3 +1,3 @@
 # Capacité électrique
 
-$$C = \frac{Q_{libre}}{V}$$
+$$C = \frac{Q_{libre}}{\Delta V}$$

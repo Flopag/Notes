@@ -33,4 +33,4 @@
 
 ## Travaux pratique
 
-- [TP 1](TP%201/TP%201.md) : Introduction et électrostatique (intro)
+- [TP 1](TP/TP%201.md) : Introduction et électrostatique (intro)

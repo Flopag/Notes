@@ -15,3 +15,7 @@ avec $\vec S = \vec n \ S$ dans la direction perpendiculaire extérieur à la su
 En utilisant le [Théorème de la divergence de Gauss](Théorème%20de%20la%20divergence%20de%20Gauss.md), on obtient :
 
 $$\vec \nabla \bullet \vec E = \frac{q}{\varepsilon_0}$$
+
+## Dans un [Matériau LHI](Matériau%20LHI.md)
+
+$$\phi_E = \int_S{\vec D \ \bullet \ d\vec S} = \frac{Q_V}{\varepsilon}$$
