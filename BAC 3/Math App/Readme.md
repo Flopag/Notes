@@ -26,6 +26,10 @@
 
 - [Equation d'onde](Notion/Equation%20d'onde.md)
 
+### Cours 4 : Equation de diffusion et son approximation
+
+- [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
+
 ## Travaux Pratique
 
 - [TP 1](TP/TP%201.md) Equation de transport linéaire
