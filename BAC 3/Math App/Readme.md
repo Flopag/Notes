@@ -28,5 +28,6 @@
 
 ## Travaux Pratique
 
-- [TP 1](TP/TP%201.md)
+- [TP 1](TP/TP%201.md) Equation de transport linéaire
+- [TP 2](TP/TP%202.md) Equation de transport non linéaire
 
