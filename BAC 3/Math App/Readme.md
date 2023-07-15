@@ -29,6 +29,12 @@
 ### Cours 4 : Equation de diffusion et son approximation
 
 - [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
+- [Méthodes numérique](Notion/Méthodes%20numérique.md)
+
+### Cours 5 : Analyse de stabilité de Von Neumann et approximation de l'équation d'onde
+
+- [Méthodes numérique](Notion/Méthodes%20numérique.md)
+- [Equation d'onde](Notion/Equation%20d'onde.md)
 
 ## Travaux Pratique
 

@@ -35,6 +35,31 @@ On a donc un **domaine d'influence** qui est la région de l'espace qui est infl
 
 On a aussi un **domaine de dépendance** qui est la portion de l'axe des $x$ sur lequel on impose une [Condition initiale](Condition%20initiale.md) qui influence le point que l'on considère
 
+## Approximation de l'équation d'onde à l'aide de [Méthodes numérique](Méthodes%20numérique.md)
+
+### [Méthode des différences finies](Méthodes%20numérique.md)
+
+Schéma explicite *(démo slides 05b_Waves_approx p4)* :
+
+$$u^{n+1}_j = s \ (u^n_{j+1}+u^n_{j-1})+2(1-s)u_j^n-u_j^{n-1}$$
+
+avec $s=c²\frac{(\Delta t)²}{(\Delta x)^2}$
+
+[Condition initiale](Condition%20initiale.md) *(démo slides 05b_Waves_approx p10)* :
+
+$$
+\left\{\begin{matrix}
+
+u^{0}_j=\phi_j\\
+u^{1}_j=\frac{s}{2}(\phi_{j+1}+\phi_{j-1})+(1-s)\phi_j+\psi_j\Delta t
+
+\end{matrix}\right.
+$$
+
+Stable si *(démo slides 05b_Waves_approx p13)* :
+
+$$s \le 1$$
+
 ## DEMO : Conservation de l'énergie
 
 voir slides "3-waves" à partir de la slide 46
