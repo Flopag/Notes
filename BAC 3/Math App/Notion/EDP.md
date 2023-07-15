@@ -56,5 +56,5 @@ $$a_{11} u_{xx}+2a_{12}u_{xy} + a_{22}u_{yy} + a_1u_x+a_2u_y+a_0u=0$$
 	- [Equation de Laplace](Equation%20de%20Laplace.md)
 - Forme **hyperbolique** si $a_{12}² > a_{11}a_{22}$ $\rightarrow$ $u_{xx}-u_{yy}+... = 0$
 	- [Equation d'onde](Equation%20d'onde.md)
-- Forme **parabolic** si $a_{12}² > a_{11}a_{22}$ $\rightarrow$ $u_{xx}+... = 0$
+- Forme **parabolic** si $a_{12}² = a_{11}a_{22}$ $\rightarrow$ $u_{xx}+... = 0$
 	- [Equation de diffusion](Equation%20de%20diffusion.md)

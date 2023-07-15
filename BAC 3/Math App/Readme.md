@@ -40,4 +40,6 @@
 
 - [TP 1](TP/TP%201.md) Equation de transport linéaire
 - [TP 2](TP/TP%202.md) Equation de transport non linéaire
+- [TP 3](TP/TP%203.md) Classification
+- 
 

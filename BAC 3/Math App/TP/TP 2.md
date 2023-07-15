@@ -1,4 +1,4 @@
-# TP 2
+# TP 2 : Equation de transport non linéaire
 
 ## Trouver la solution générale d'une [Equation de transport](../Notion/Equation%20de%20transport.md) [non linéaire](../Notion/EDP.md)
 
