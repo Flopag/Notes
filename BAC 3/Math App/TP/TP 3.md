@@ -13,6 +13,13 @@ $$a_{11} u_{xx}+2a_{12}u_{xy} + a_{22}u_{yy} + a_1u_x+a_2u_y+a_0u=0$$
 - Forme **parabolic** si $a_{12}² = a_{11}a_{22}$ $\rightarrow$ $u_{xx}+... = 0$
 	- [Equation de diffusion](Equation%20de%20diffusion.md)
 
+Un moyen mémo-technique pour retenir est d'utiliser la formule $b^2-4AC$ revisité :
+
+$$(2a_{12})²-4a_{11}a_{22}$$
+- $<0$ elliptique
+- $>0$ hyperbolique
+- $=0$ parabolic
+
 ## Quelque expressions utile (à vérifier)
 
 $$\vec \nabla \bullet (\vec \nabla f)=\Delta f$$

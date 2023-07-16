@@ -48,4 +48,5 @@
 
 ## Travaux pratique
 
-- [TP 1](TP/TP%201.md) : Introduction et électrostatique (intro)
+- [TP 1](TP/TP%201.md) Introduction et électrostatique (intro)
+- [TP 2](TP/TP%202.md) Electrostatique (capacité et image)
