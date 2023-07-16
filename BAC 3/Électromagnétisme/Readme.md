@@ -41,6 +41,7 @@
 - [Induction magnétique](Notion/Induction%20magnétique.md)
 - [loi de Biot-Savart](Notion/loi%20de%20Biot-Savart.md)
 - [Loi de Gauss](Notion/Loi%20de%20Gauss.md)
+- [Matériau LHI](Notion/Matériau%20LHI.md)
 - [Matériaux magnétique](Notion/Matériaux%20magnétique.md)
 - [Perméabilité magnétique du vide](Notion/Perméabilité%20magnétique%20du%20vide.md)
 - [Théorème d'Ampère](Notion/Théorème%20d'Ampère.md)

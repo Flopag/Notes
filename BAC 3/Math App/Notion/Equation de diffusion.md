@@ -26,7 +26,9 @@ Pareil que le principe du maximum mais avec le minimum
 
 la démo est la même mais avec $-u(x,t)$
 
-## DEMO : Une [Condition initiale](Condition%20initiale.md) et deux [Condition limites](Condition%20limites.md) permettent d'avoir une solution unique
+## DEMO : Une [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md) permettent d'avoir une solution unique
+
+Problème de Dirichlet = combinaison de [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md)
 
 *Demo slides 4-Diffusion p14*
 

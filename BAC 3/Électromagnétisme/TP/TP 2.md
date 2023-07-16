@@ -72,10 +72,14 @@ $$\Delta V = \int_a^b{\vec E \bullet d\vec l}$$
 
 ### Calcul de $V_0$ sachant $Q$
 
+(On cherche une expression de $V_0$)
+
 1. Calculer $\vec E$ avec le [théorème de Gauss](../Notion/Loi%20de%20Gauss.md) (il faut prendre les symétries et / ! \\ c'est non systématique)
 2. $V_0 = -\int_{el1}^{el2}{\vec E_0 d\vec l}$
 
 ### Calcul de $Q$ sachant $V_0$
+
+(On cherche une expression de $Q$)
 
 1. Résoudre l'[équation de Laplace](../Notion/Potentiel%20électrique.md) hors des électrodes
 2. En déduire le [Champ électrique](../Notion/Champ%20électrique.md) : $\vec E = - \vec \nabla V$
