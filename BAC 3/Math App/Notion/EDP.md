@@ -58,3 +58,8 @@ $$a_{11} u_{xx}+2a_{12}u_{xy} + a_{22}u_{yy} + a_1u_x+a_2u_y+a_0u=0$$
 	- [Equation d'onde](Equation%20d'onde.md)
 - Forme **parabolic** si $a_{12}² = a_{11}a_{22}$ $\rightarrow$ $u_{xx}+... = 0$
 	- [Equation de diffusion](Equation%20de%20diffusion.md)
+
+## Comparaison de l'[Equation d'onde](Equation%20d'onde.md) et de l'[Equation de diffusion](Equation%20de%20diffusion.md)
+
+#Important 
+![](attachments/Pasted%20image%2020230717101240.png)

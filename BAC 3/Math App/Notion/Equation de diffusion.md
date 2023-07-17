@@ -26,6 +26,30 @@ Pareil que le principe du maximum mais avec le minimum
 
 la démo est la même mais avec $-u(x,t)$
 
+## DEMO : Solution d'une équation de diffusion unique
+
+[Invariance](Invariance.md)
+
+$$u(x,t)=\int_{-\infty}^{\infty}{S \ \phi(y) \ dy} = \frac{1}{\sqrt{4\pi kt}}\int_{-\infty}^{\infty}{e^{-(x-y)^2/4kt} \phi(y) \ dy}$$
+
+On peut directement voir que la vitesse de propagation est infinie (l'équation a instantanément un impacte sur tous le domaine)
+
+avec $S(x,t)$ qui est la **fonction de Green** :
+
+$$S(x,t) = \frac{1}{2\sqrt{\pi kt}} e^{-x^2/4kt}$$
+
+On peut lui appliquer la **convolution** :
+
+$$u(x,t)=(S * \phi)(x) = \int_{-\infty}^{\infty}{S(x-y,t) \ \phi(y) \ dy} = \int_{-\infty}^{\infty}{S(z,t) \ \phi(x-z) \ dy}$$
+
+Propriétées de $S$ :
+- Elle est définie sur l'axe des réel et pour tout temps strictement positif
+- Elle est pair (symétrique) en $x$ 
+- Son intégrale sur tout l'axe réel vaut 1
+- Pour $t=0$, $S$ prend la forme d'un delta de Dirac
+
+*(Demo slides 06_Green p13)*
+
 ## DEMO : Une [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md) permettent d'avoir une solution unique
 
 Problème de Dirichlet = combinaison de [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md)

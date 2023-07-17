@@ -36,6 +36,12 @@
 - [Méthodes numérique](Notion/Méthodes%20numérique.md)
 - [Equation d'onde](Notion/Equation%20d'onde.md)
 
+### Cours 6 : Résolution de l'équation de diffusion (équation de Green)
+
+- [EDP](Notion/EDP.md)
+- [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
+- [Invariance](Notion/Invariance.md)
+
 ## Travaux Pratique
 
 - [TP 1](TP/TP%201.md) Equation de transport linéaire
