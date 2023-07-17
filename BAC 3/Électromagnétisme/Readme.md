@@ -47,7 +47,16 @@
 - [Théorème d'Ampère](Notion/Théorème%20d'Ampère.md)
 - [Vecteur potentiel](Notion/Vecteur%20potentiel.md)
 
+### Chapitre 6 : Conditions limites
+
+- [Champ d'induction magnétique](Notion/Champ%20d'induction%20magnétique.md)
+- [Champ électrique](Notion/Champ%20électrique.md)
+- [Champ magnétique](Notion/Champ%20magnétique.md)
+- [Déplacement électrique](Notion/Déplacement%20électrique.md)
+- pas fini !
+
 ## Travaux pratique
 
 - [TP 1](TP/TP%201.md) Introduction et électrostatique (intro)
 - [TP 2](TP/TP%202.md) Electrostatique (capacité et image)
+- [TP 3](TP/TP%203.md) Electrostatique (image et diélectrique)

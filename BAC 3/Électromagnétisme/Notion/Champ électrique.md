@@ -39,3 +39,10 @@ avec
 ## Rotationnel du champ électrique
 
 [Loi de Stockes](Loi%20de%20Stockes.md)
+
+## Condition limite
+
+$$\hat n_{21} \bullet (\vec E_1-\vec E_2) = 0$$
+*(Demo ch 6 p6)*
+
+![](attachments/Pasted%20image%2020230717152934.png)

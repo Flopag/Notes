@@ -14,4 +14,11 @@ $$\int_S{\vec D\bullet d\vec S}=Q_{libre}$$
 
 / ! \\ $\vec D$ n'a pas les même propriété que le [Champ électrique](Champ%20électrique.md) $\vec E$, $\vec D$ ne dérive pas d'un potentiel
 
-*Demo ch 2 p34*
+*(Demo ch 2 p34)*
+
+## Condition limite
+
+$$\hat n_{21} \bullet (\vec D_1-\vec D_2) = \sigma_s$$
+*(Demo ch 6 p1)*
+
+![](attachments/Pasted%20image%2020230717152934.png)
