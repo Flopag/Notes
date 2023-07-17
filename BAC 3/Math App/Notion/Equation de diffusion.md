@@ -52,7 +52,7 @@ Propriétées de $S$ :
 
 ## DEMO : Une [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md) permettent d'avoir une solution unique
 
-Problème de Dirichlet = combinaison de [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md)
+Problème de [Dirichlet](Condition%20limites.md) = combinaison de [Condition initiale](Condition%20initiale.md) et de [Condition limites](Condition%20limites.md)
 
 *Demo slides 4-Diffusion p14*
 
@@ -79,3 +79,31 @@ Schéma semi-explicite :
 $$\frac{u_j^{n+1}-u^n_j}{\Delta t} = (1-\theta) \frac{u^n_{j+1}-2u_j^n+u_{j-1}^n}{(\Delta x)²}+\theta \frac{u^{n+1}_{j+1}-2u_j^{n+1}+u_{j-1}^{n+1}}{(\Delta x)²}$$
 
 où $\theta \in [0,1]$
+
+## DEMO : résolution avec [conditions de Dirichlet](Condition%20limites.md) (dans un domaine bornée)
+
+*(demo slides 07_Boundary_problems p24)*
+
+On a :
+
+$$u_{t} = c²u_{xx} \ \ \ , \ pour \ 0<x<l \ et \ 0<t<\infty$$
+
+La solution est :
+
+$$u(x,t) = \sum_{n=1}^\infty{A_n \ e^{-(n\pi/l)^2kt} \ sin\frac{n\pi x}{l}}$$
+
+Il faut que la somme converge
+
+## DEMO : résolution avec [conditions de Neumann](Condition%20limites.md) (dans un domaine bornée)
+
+*(demo slides 07_Boundary_problems p28)*
+
+On a :
+
+$$u_{t} = c²u_{xx} \ \ \ , \ pour \ 0<x<l \ et \ 0<t<\infty$$
+
+La solution est :
+
+$$u(x,t) = \frac{1}{2} A_0 + \sum_{n=1}^\infty{A_n \ e^{-(n\pi/l)^2kt} \ cos\frac{n\pi x}{l}}$$
+
+Il faut que la somme converge

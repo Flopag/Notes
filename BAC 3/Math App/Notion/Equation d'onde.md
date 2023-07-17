@@ -166,3 +166,33 @@ $$u(x,t)=\frac{1}{2}[\phi(x+ct)+\phi(x-ct)]+\frac{1}{2c}\int_{x-ct}^{x+ct}{\psi(
 avec :
 - $\phi(x)=f(x)+g(x)$
 - $\psi (x)=cf'(x)-cg'(x)$
+
+## DEMO : résolution avec [conditions de Dirichlet](Condition%20limites.md) (dans un domaine bornée)
+
+*(demo slides 07_Boundary_problems p6)*
+
+On a :
+
+$$u_{tt} = c²u_{xx} \ \ \ , \ pour \ 0<x<l$$
+
+La solution est :
+
+$$u(x,t) = \sum_n{\left(A_n \ cos\frac{n\pi ct}{l}+B_n \ sin\frac{n\pi ct}{l}\right)} \ sin \frac{n\pi x}{l}$$
+
+Il faut que la somme converge
+
+*(voir slides 07_Boundary_problems p20)*
+
+## DEMO : résolution avec [conditions de Neumann](Condition%20limites.md) (dans un domaine bornée)
+
+*(demo slides 07_Boundary_problems p32)*
+
+On a :
+
+$$u_{tt} = c²u_{xx} \ \ \ , \ pour \ 0<x<l$$
+
+La solution est :
+
+$$u(x,t) = \frac{1}{2} A_0 + \frac{1}{2} B_0 t +\sum_n{\left(A_n \ cos\frac{n\pi ct}{l}+B_n \ sin\frac{n\pi ct}{l}\right)} \ cos \frac{n\pi x}{l}$$
+
+Il faut que la somme converge

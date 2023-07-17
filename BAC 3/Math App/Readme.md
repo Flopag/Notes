@@ -42,6 +42,11 @@
 - [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
 - [Invariance](Notion/Invariance.md)
 
+### Cours 7 : Problème de conditions limites
+
+- [Equation d'onde](Notion/Equation%20d'onde.md)
+- [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
+
 ## Travaux Pratique
 
 - [TP 1](TP/TP%201.md) Equation de transport linéaire
