@@ -47,6 +47,10 @@
 - [Equation d'onde](Notion/Equation%20d'onde.md)
 - [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
 
+### Cours 10 : Méthode de Krylov
+
+- [Méthodes numérique](Notion/Méthodes%20numérique.md)
+
 ## Travaux Pratique
 
 - [TP 1](TP/TP%201.md) Equation de transport linéaire

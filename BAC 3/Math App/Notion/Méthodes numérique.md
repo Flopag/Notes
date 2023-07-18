@@ -51,3 +51,77 @@ Annalyse de Von Neumann :
 
 ## Méthode des éléments finis
 
+
+## Méthode de Krylov
+
+Permet de résoudre l'équation matriciel $Ax=b$ sans avoir besoin de stocker $A$ (qui peut etre très grand)
+
+Les méthodes de Krylov sont des méthodes non stationnaire qui fonctionne par projection dans des sous espaces de Krylov
+
+Un sous espace de Krylov est un espace généré par des vecteurs de base qui sont le membre de droite (donc $b$) et des application de puissance successive de $A$ sur le membre de droite ($b$), ils ont donc la forme :
+
+$$b, Ab, A(Ab) , a(A(Ab)), ...$$
+
+On a donc pas besoin de stocker la matrice $A$ mais seulement son application
+
+Cette méthode est liée au théorème de Caley-Hamilton :
+
+> Soit une matrice $A (m\times m)$ avec le polynôme caractéristique : 
+> 
+> $$p(\lambda)=det(\lambda I-A)=\lambda^m+c_{m-1}\lambda^{m-1}+...+c_1\lambda+c_0$$
+> Alors :
+>
+>$$A^m+c_{m-1}A^{m-1}+...+c_1A+c_0I=0$$
+
+Il y a plusieurs méthodes en fonction de l'équation :
+
+![](attachments/Pasted%20image%2020230718144056.png)
+
+### Conjugate Gradients
+
+#### Notations
+
+Une matrice réel symétrique et définie positive $A\in \Re^{m\times m}$
+
+On veut résoudre :
+
+$$Ax=b$$
+
+La solution exacte du système est :
+
+$$x_* = A^{-1}b$$
+
+Le $n^{eme}$ sous espace de Krylov généré par $b$ est défini comme :
+
+$$K_n = K_n(A,b) = <b, Ab, ..., A^{n-1}>$$
+
+On défini la norme $A$ de $x$ comme :
+
+$$||x||_A = \sqrt{x^TAx}$$
+
+#### Qu'est ce que la méthode ?
+
+C'est un système de formule de recurrence qui vont générer une suite d'itéré qu'on va appeler $x_n\in K_n$, à l'étape $n$, l'itéré appartiendra au $n^{ème}$ sous espace de Krilov, a chaque pas $n$ la norme $A$ de l'erreur $e_n = x_*-x_n$ est la plus petite possible
+
+Donc, la méthode minimise $||e_n||_A$ a chaque itération :
+
+$$||e_n||_A\le ||e_{n-1}||_A$$
+
+Il y a trois propriétés :
+- $K_n = <x_1, x_2, ..., x_n> = <p_0, p_1, ..., p_{n-1}> = <r_0, r_1, ..., r_{n-1}> = <b, Ab, ..., A^{n-1}b>$
+- $r_n^Tr_j=0 \ \ (j < n)$
+- $p_n^TAp_j=0 \ \ (j < n)$
+
+*(demo et explications slides 10_CG p15)*
+
+#### Etapes
+
+1. On choisit une approximation initiale $x_0$ (le plus simple, est de prendre $x_0=0$)
+2. On défini un vecteur $r_0$ comme le vecteur résidu (si $x_0 = 0$, alors $r_0 = b$)
+3. On défini un vecteur $p_0$ comme la direction des sous espace (initialement $p_0=r_0$)
+4. Début de la boucle $for(int \ n = 1; cond; ++n)$ :
+	1. On calcule une longueur de pas $\alpha_n = \frac{r_{n-1}^Tr_{n-1}}{p_{n-1}^TAp_{n-1}}$
+	2. On calcule la prochaine estimation de la solution $x_n = x_{n-1}+\alpha_np_{n-1}$
+	3. On calcule le prochain vecteur résidu $r_n = r_{n-1}-\alpha_np_{n-1}$
+	4. On calcule un nombre $\beta_n = \frac{r_n^Tr_n}{r_{n-1}^Tr_{n-1}}$
+	5. On calcule le prochain vecteur direction $p_n=r_n+\beta_np_{n-1}$
