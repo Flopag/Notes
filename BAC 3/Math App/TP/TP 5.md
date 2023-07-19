@@ -8,7 +8,7 @@ $$u_{tt} - c² u_{xx} = 0$$
 
 où $c$ est la vitesse de propagation de l'onde
 
-La solution générale de l'[Equation d'onde](../Notion/Equation%20d'onde.md) est :
+La solution générale de l'[Equation d'onde](../Notion/Equation%20d'onde.md) est (par <3) :
 
 $$u(x,t)=f(x+ct)+g(x-ct)$$
 
@@ -28,7 +28,7 @@ $$c_1u_{tt}+c_2 u_{xt} +c_3u_{xx}=f(x,t)$$
 
 1. Factoriser pour arriver sous la forme suivante :
 
-$$(A\partial_t+B\partial_x)((C\partial_t+D\partial_x)u)=f_x$$
+$$(A\partial_t+B\partial_x)(C\partial_t+D\partial_x)u=f_x$$
 
 2. Introduire la fonction $v=(C\partial_t+D\partial_x)u$ pour obtenir le [Système d'EDP du première ordre](../Notion/Système%20d'EDP%20du%20première%20ordre.md) suivant :
 
@@ -47,7 +47,7 @@ $$
 
 #### Méthode 2
 
-1. Injecter le changement de variable pour obtenir :
+1. Injecter le changement de variable (a trouver) pour obtenir :
 
 $$\partial_\xi \partial_\eta u(\xi,\eta)=f(\xi,\eta)$$
 

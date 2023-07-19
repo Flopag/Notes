@@ -11,6 +11,8 @@
 ## 3rd
 
 - [Telecom](BAC%203/Telecom/Readme.md)
+- [Math App](BAC%203/Math%20App/Readme.md)
+- [Electromagnétique](BAC%203/Électromagnétisme/Readme.md)
 
 ### 2nd
 
