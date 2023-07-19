@@ -56,5 +56,6 @@
 - [TP 1](TP/TP%201.md) Equation de transport linéaire
 - [TP 2](TP/TP%202.md) Equation de transport non linéaire
 - [TP 3](TP/TP%203.md) Classification
-- 
+- [TP 4](TP/TP%204.md) Von Neumann
+- [TP 5](TP/TP%205.md) Equation d'onde et changement de variable
 
