@@ -36,6 +36,11 @@ Une EDP est **quasi-linéaire** si les dérivées d'ordre maximum apparaissent d
 
 Exemple : $u_xu_{xx}+u_y³u_{xy}+(tan \ u)u_{yy}=f(u, u_x, u_y)$ est quasi-linéaire
 
+### Conséquence de la non linéarité
+
+- Le principe de superposition n'est plus applicable
+- Nouveau phénomène dans les solutions
+
 ## Homogénéité d'une EDP
 
 Si $\mathscr{L}$ est un opérateur linéaire si $g = 0$ 
