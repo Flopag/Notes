@@ -58,4 +58,5 @@
 - [TP 3](TP/TP%203.md) Classification
 - [TP 4](TP/TP%204.md) Von Neumann
 - [TP 5](TP/TP%205.md) Equation d'onde et changement de variable
+- [TP 6](TP/TP%206.md) Conditions initiale d'un équation de diffusion
 

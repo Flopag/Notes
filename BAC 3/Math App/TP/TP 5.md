@@ -18,6 +18,11 @@ $$u(x,t)=\frac{1}{2}[\phi(x+ct)+\phi(x-ct)]+\frac{1}{2c}\int_{x-ct}^{x+ct}{\psi(
 
 ## Méthodes
 
+### Établir la fonction de Green
+
+1. Trouver la solution générale
+2. Remplacer par les [Condition initiale](../Notion/Condition%20initiale.md) et [Condition limites](../Notion/Condition%20limites.md)
+
 ### Solution d'une [EDP](../Notion/EDP.md) du $2^{ème}$ ordre en temps et en lieu
 
 L'[EDP](../Notion/EDP.md) a la forme suivante :

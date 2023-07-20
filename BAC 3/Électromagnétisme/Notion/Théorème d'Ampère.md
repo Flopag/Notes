@@ -10,8 +10,6 @@ Par le [Théorème de Stokes](Notion/Théorème%20de%20Stokes.md), forme différ
 
 $$\vec \nabla \times \vec B = \mu_0 \vec J$$
 
-![](attachments/Pasted%20image%2020230715151915.png)
-
 ## Avec $\vec H$
 
 Forme intégrale :
