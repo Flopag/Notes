@@ -39,7 +39,7 @@
 - [Densité de courant électrique](Notion/Densité%20de%20courant%20électrique.md)
 - [Force](Notion/Force.md)
 - [Induction magnétique](Notion/Induction%20magnétique.md)
-- [loi de Biot-Savart](Notion/loi%20de%20Biot-Savart.md)
+- [Loi de Biot-Savart](Notion/Loi%20de%20Biot-Savart.md)
 - [Loi de Gauss](Notion/Loi%20de%20Gauss.md)
 - [Matériau LHI](Notion/Matériau%20LHI.md)
 - [Matériaux magnétique](Notion/Matériaux%20magnétique.md)
@@ -65,3 +65,4 @@
 - [TP 1](TP/TP%201.md) Introduction et électrostatique (intro)
 - [TP 2](TP/TP%202.md) Electrostatique (capacité et image)
 - [TP 3](TP/TP%203.md) Electrostatique (image et diélectrique)
+- [TP 4](TP/TP%204.md) Magnétostatique (champs)

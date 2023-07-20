@@ -47,6 +47,13 @@
 - [Equation d'onde](Notion/Equation%20d'onde.md)
 - [Equation de diffusion](Notion/Equation%20de%20diffusion.md)
 
+### Cours 8 : Equation non linéaire
+
+- [Distribution](Notion/Distribution.md)
+- [EDP](Notion/EDP.md)
+- [Equation de transport](Notion/Equation%20de%20transport.md)
+- [Fonction test](Notion/Fonction%20test.md)
+
 ### Cours 10 : Méthode de Krylov
 
 - [Méthodes numérique](Notion/Méthodes%20numérique.md)

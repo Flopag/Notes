@@ -4,7 +4,7 @@
 
 Définition du champ d'induction magnétique :
 
-[loi de Biot-Savart](loi%20de%20Biot-Savart.md)
+[Loi de Biot-Savart](Loi%20de%20Biot-Savart.md)
 
 Divergence du champ d'induction magnétique
 

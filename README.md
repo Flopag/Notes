@@ -8,7 +8,7 @@
 
 ## Bachelor
 
-## 3rd
+### 3rd
 
 - [Telecom](BAC%203/Telecom/Readme.md)
 - [Math App](BAC%203/Math%20App/Readme.md)
