@@ -49,4 +49,24 @@ $$\int_S{\vec B\bullet d\vec S} = 0$$
 
 $$\int_S{\vec D \bullet d\vec S} = Q_{libre}$$
 
-Très utile quand il y a des symétrie
+Très utile quand il y a des symétries
+
+## Les équations de Maxwell en utilisant les [phaseurs](Phaseur.md)
+
+On introduit le [Phaseur](Phaseur.md) :
+$$\vec E(x,y,z,t)=\vec E(x,y,z)cos(\omega t+\phi) \rightarrow \hat {\vec E}(x,y,z) = \vec E(x,y,z)e^{j\phi}$$
+
+La dérivée temporelle :
+
+$$\frac{\partial}{\partial t}\rightarrow j\omega$$
+
+Equations de Maxwell :
+
+$$\left\{\begin{matrix}
+
+\vec \nabla \times\hat{\vec E} = -j\omega\hat{\vec B}&(1)\\
+\vec \nabla \times \hat {\vec H}=\hat {\vec J}+j\omega \hat{\vec D}&(2)\\
+\vec \nabla \bullet \hat{\vec B}=0&(3)\\
+\vec \nabla \bullet \hat {\vec D} = \hat \rho_{libres}&(4)
+
+\end{matrix}\right.$$

@@ -47,10 +47,12 @@
 - [Théorème d'Ampère](Notion/Théorème%20d'Ampère.md)
 - [Vecteur potentiel](Notion/Vecteur%20potentiel.md)
 
-## Chapitre 4 : Phénomènes variables dans le temps et équations de Maxwell
+### Chapitre 4 : Phénomènes variables dans le temps et équations de Maxwell
 
 - [Densité de courant électrique](Notion/Densité%20de%20courant%20électrique.md)
 - [Equation de Maxwell](Notion/Equation%20de%20Maxwell.md)
+- [Matériau LHI](Notion/Matériau%20LHI.md)
+- [Vecteur de Poynting](Notion/Vecteur%20de%20Poynting.md)
 
 ### Chapitre 6 : Conditions limites
 

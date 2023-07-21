@@ -32,3 +32,9 @@ On peut donc modifier le [Champ d'induction magnétique](Champ%20d'induction%20m
 $$\vec B = \mu \vec H$$
 
 où $\mu$ est la **perméabilité du milieu**, il peut s'exprimer comme $\mu = \mu_r \mu_0$ avec $\mu_r$ la **perméabilité relative du milieu**
+
+## En utilisant des [Phaseurs](Phaseur.md)
+
+$$\hat {\vec D} =\varepsilon\hat {\vec E}$$
+
+$$\hat{\vec B}=\mu \hat{\vec H}$$
