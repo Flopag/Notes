@@ -66,4 +66,6 @@
 - [TP 4](TP/TP%204.md) Von Neumann
 - [TP 5](TP/TP%205.md) Equation d'onde et changement de variable
 - [TP 6](TP/TP%206.md) Conditions initiale d'un équation de diffusion
+- [TP 7](TP/TP%207.md) Variable séparable (partie 1)
+
 
