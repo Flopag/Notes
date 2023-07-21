@@ -65,3 +65,17 @@ la valeur de n'importe quel fonction harmonique en n'importe quel point est la v
 ou
 
 La valeur d'une fonction harmonique en un point est égal à la moyenne sur n'importe quel disque centrer sur ce point ou n'importe quel boule (en 3D) pour autant que ces cercles reste bien à l'intérieur du domaine
+
+## Approximation de l'équation de Laplace à l'aide de [Méthodes numérique](Méthodes%20numérique.md)
+
+### [Méthode des différences finies](Méthodes%20numérique.md)
+
+Schema numérique explicite (on calcule les valeurs $n$ à l'aide des valeurs de $n-1$ ) *(Demo slides 09b_Laplace_approx p5)* : 
+
+$$u_{j,k} = \frac{1}{4}(u_{j+1,k}+u_{j-1,k}+u_{j,k+1}+u_{j,k-1})$$
+
+où $j$ est la case selon $x$ et $k$ la case selon $y$
+
+On peut voir que $u_{j,k}$ vaut la valeur moyenne des cases autour de lui (propriété des disks mais en discrète)
+
+On retrouve aussi le principe du maximum à l'aide de cette moyenne

@@ -54,6 +54,11 @@
 - [Equation de transport](Notion/Equation%20de%20transport.md)
 - [Fonction test](Notion/Fonction%20test.md)
 
+### Cours 9 : Approximation de l'équation de Laplace
+
+- [Equation de Laplace](Notion/Equation%20de%20Laplace.md)
+- [Méthodes numérique](Notion/Méthodes%20numérique.md)
+
 ### Cours 10 : Méthode de Krylov
 
 - [Méthodes numérique](Notion/Méthodes%20numérique.md)

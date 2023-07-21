@@ -51,6 +51,41 @@ Annalyse de Von Neumann :
 
 ## Méthode des éléments finis
 
+La méthode consiste à :
+1. Discrétiser le domaine d'étude en plusieurs éléments (triangle, etc )
+2. Choisir une approximation de la solution en écrivant cette solution comme une combinaison linéaire de fonction de base (souvent des polynômes) qui ont un support local sur les éléments
+3. Choisir un nombre fini de [Fonction test](Fonction%20test.md) (souvent les mêmes que les fonctions de base)
+
+![](attachments/Pasted%20image%2020230721111914.png)
+
+![](attachments/Pasted%20image%2020230721120125.png)
+
+![](attachments/Pasted%20image%2020230721120146.png)
+
+## Méthodes stationnaire
+
+Permet de résoudre l'équation matriciel $Ax=b$
+
+La forme générale de la méthode d'écrit :
+
+$$x_n=x_{n-1}+k^{-1}(b-Ax_{n-1})$$
+
+On décomposer $A$ en :
+- Une diagonal $D$
+- Une triangulaire inférieur $L$
+- Une triangulaire supérieur $U$
+
+### Méthode de Jacobi
+
+*(Voir slides 09b_Laplace_approx p11)* 
+
+$$K=D$$
+
+### Méthode de Gauss-Seidel
+
+*(Demo slides 09b_Laplace_approx p13)* : 
+
+$$K=D+L$$
 
 ## Méthode de Krylov
 
