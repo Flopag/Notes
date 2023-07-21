@@ -54,6 +54,10 @@
 - [Matériau LHI](Notion/Matériau%20LHI.md)
 - [Vecteur de Poynting](Notion/Vecteur%20de%20Poynting.md)
 
+### Chapitre 5 : Ondes
+
+- [Equation d'onde](Notion/Equation%20d'onde.md)
+
 ### Chapitre 6 : Conditions limites
 
 - [Champ d'induction magnétique](Notion/Champ%20d'induction%20magnétique.md)
