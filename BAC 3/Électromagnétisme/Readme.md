@@ -72,3 +72,4 @@
 - [TP 2](TP/TP%202.md) Electrostatique (capacité et image)
 - [TP 3](TP/TP%203.md) Electrostatique (image et diélectrique)
 - [TP 4](TP/TP%204.md) Magnétostatique (champs)
+- [TP 5](TP/TP%205.md) Magnétostatique (inductance)

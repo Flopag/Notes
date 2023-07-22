@@ -19,9 +19,9 @@ C'est la **loi de Faraday-Lenz** :
 
 $$\oint_{boucle}{\vec E \bullet d\vec l} = -\frac{\partial}{\partial t}\int_{S}{\vec B\bullet d\vec S}$$
 
-$$force \ électromotrice \ induite = \frac{\partial}{\partial t} flux \ magnétique \ embrassé$$
+$$force \ électromotrice \ induite = -\frac{\partial}{\partial t} flux \ magnétique \ embrassé$$
 
-$$V_{fem} = \frac{\partial \Phi}{\partial t}$$
+$$V_{fem} = -\frac{\partial \Phi}{\partial t}$$
 
 Une variation du flux magnétique embrassé par la boucle induit une force électromotrice
 
