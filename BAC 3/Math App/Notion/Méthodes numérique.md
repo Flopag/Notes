@@ -160,3 +160,69 @@ Il y a trois propriétés :
 	3. On calcule le prochain vecteur résidu $r_n = r_{n-1}-\alpha_np_{n-1}$
 	4. On calcule un nombre $\beta_n = \frac{r_n^Tr_n}{r_{n-1}^Tr_{n-1}}$
 	5. On calcule le prochain vecteur direction $p_n=r_n+\beta_np_{n-1}$
+
+## Méthode SVD (Singular Value Decomposition)
+
+Fonctionne pour n'importe quel matrice (même rectangulaire)
+
+Pourquoi étudier le SVD ?
+- Il intervient dans énormément d'algorithmes
+- Il a un intérêt conceptuelle, permet d'avoir un autre point de vu de l'algèbre linéaire
+
+### Interprétation géométrique
+
+On considère une [Matrice](Matrice.md) $A$ réel et de [rang plein](Matrice.md), son application sur $x$ donne donc une hyperellipse :
+
+![](attachments/Pasted%20image%2020230722112648.png)
+
+Une hyperellipse est le résultat d'une dilatation en appliquant des facteurs de dilation $\sigma_1, ..., \sigma_m$ dans des directions normales, dons les vecteurs unitaires sont $u_1, ..., u_m$. Le vecteur $\{\sigma_i, u_i\}$ correspond au **demi axe principaux** de l’ellipse
+
+![](attachments/Pasted%20image%2020230722113053.png)
+
+Le [rang](Matrice.md) de $A$ est le nombre de $\sigma_i$ non nul
+
+Caractérisation de la [Matrice](Matrice.md) $A$ à partir des éléments géométriques, à l'aide de :
+- **Valeur singulière** : les longueurs des demi axes principaux $\rightarrow \sigma_1, ..., \sigma_n$ (ils sont numéroté par ordre décroissant)
+- **Vecteur singulier à gauche** : les vecteurs de norme unitaire orienté selon les demi axe principaux $\rightarrow u_1, ..., u_n$ (la numérotation correspond à leur valeur singulière)
+- **vecteur singulier à droite** : les vecteurs $v_1, ..., v_n$ dont l'image par application de la [Matrice](Matrice.md) $A$ sont les demis axes principaux
+
+![](attachments/Pasted%20image%2020230722113933.png)
+
+### Interprétation formel
+
+A partir de l'interpretation géométrique, on comprend que :
+
+$$Av_j=\sigma_ju_j \ \ \ \ , 1\le j\le n$$
+
+Sous forme [matriciel](Matrice.md) (sous **forme réduite**) :
+
+$$AV=\hat U\hat\Sigma$$
+
+![](attachments/Pasted%20image%2020230722114417.png)
+
+On sait que $V$ est [unitaire](Matrice.md), on peut donc transformé l'équation précédente (c'est toujours la forme réduite) :
+
+$$A=\hat U \hat \Sigma V^*$$
+
+![](attachments/Pasted%20image%2020230722114930.png)
+
+Pour avoir une **décomposition complète**, on va rendre $\hat U$ [unitaire](Matrice.md) (en rajoutant des colonnes orthonormé avec toutes les autres colonnes) et rendre $\hat \Sigma$ compatible à $U$ (en ajoutant des lignes remplis de $0$) :
+
+![](attachments/Pasted%20image%2020230722115226.png)
+
+![](attachments/Pasted%20image%2020230722115521.png)
+
+La décomposition complète peut être utilisé pour une [Matrice](Matrice.md) $A$ à [rang non plein](Matrice.md)  (contrairement à la décomposition réduite)
+
+Définition de la décomposition SVD :
+
+> Soit une matrice complexe $A$ de dimension $n \times m$ quelconque ($A$ ne doit pas être nécessairement de rang plein). Ce qu'on appel, décomposition en valeur singulière (SVD) est la factorisation de la matrice $A$ sous la forme :
+> 
+> $$A=U\Sigma V^*$$
+>
+> ![](attachments/Pasted%20image%2020230722120350.png)
+
+
+*(démo que toutes matrice possède une décomposition SVD, slides 11_SVD p35)*
+
+La décomposition n'est pas unique, les valeurs singulière sont déterminé de manière unique, par contre les vecteurs singulier sont déterminé de manière unique au signe près à condition que la [Matrice](Matrice.md) $A$ soit [carré](Matrice.md) et qu'elle a des valeurs singulière toutes distincte

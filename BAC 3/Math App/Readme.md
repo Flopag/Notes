@@ -63,6 +63,11 @@
 
 - [Méthodes numérique](Notion/Méthodes%20numérique.md)
 
+### Cours 11 : la décomposition SVD
+
+- [Matrice](Notion/Matrice.md)
+- [Méthodes numérique](Notion/Méthodes%20numérique.md)
+
 ## Travaux Pratique
 
 - [TP 1](TP/TP%201.md) Equation de transport linéaire
