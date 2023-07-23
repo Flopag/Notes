@@ -42,3 +42,10 @@ $$||A_x||_{(m)}\le C ||x||_{(n)}$$
 La norme peut être construite à l'aide de :
 
 $$||A||_{m,n} = max_{x\in \Im^n, ||x||_{(n)} \ne 0}{\frac{||Ax||_{(m)}}{||x||_{(n)}}} = max_{x\in \Im^n, ||x||_{(n)} = 1}{||Ax||_{(m)}}$$
+
+## Quelque propriétés
+
+- Si on appel $r$ le nombre de valeurs singulière non nul $\rightarrow$ $rang(A)=r$
+- La norme 2 d'une matrice $||A||_2$ est égales à la première valeur singulière $\sigma_1$ (la plus grande)
+- Les valeurs singulière non nul de $A$ sont les racine carré des valeurs propres non nulle de $A^*A$ ou $AA^*$
+- Si $A$ est hermitienne alors les valeurs singulière de $A$ vont etre les valeurs absolue des valeur propre de $A$

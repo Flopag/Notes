@@ -226,3 +226,21 @@ Définition de la décomposition SVD :
 *(démo que toutes matrice possède une décomposition SVD, slides 11_SVD p35)*
 
 La décomposition n'est pas unique, les valeurs singulière sont déterminé de manière unique, par contre les vecteurs singulier sont déterminé de manière unique au signe près à condition que la [Matrice](Matrice.md) $A$ soit [carré](Matrice.md) et qu'elle a des valeurs singulière toutes distincte
+
+### Approximation de [rang](Matrice.md) 
+
+La [matrice](Matrice.md) $A$ peut être écrit sous la forme d'une somme :
+
+$$A=\sum_{j=1}^r{\sigma_ju_jv_j^*}$$
+
+Pour tous $k \le r$ qui définit le somme suivante :
+
+$$A_k=\sum_{j=1}^k{\sigma_ju_jv_j^*}$$
+
+alors :
+
+$$||A-A_k||_2 = \sigma_{k+1}= \min_{rang(B)=k}{||A-B||_2}$$
+
+Cela dit que l'approximation $A_k$ de $A$ est la meilleur possible pour un rang $k$ (dans le sens $||.||_2$)
+
+*(demo slides 12_SVD p28)*
