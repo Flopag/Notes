@@ -4,7 +4,7 @@ $$
 \left\{\begin{matrix}
 
 \vec \nabla \times \vec E = -\frac{\partial \vec B}{\partial t}&(1)\\
-\vec \nabla \times \vec B = \vec J + \frac{\partial \vec D}{\partial t}&(2)\\
+\vec \nabla \times \vec B = \vec J + \frac{\partial \vec D}{\partial t} = j_{total}&(2)\\
 \vec \nabla \bullet \vec B = 0&(3)\\
 \vec \nabla \bullet \vec D = \rho_{libre}&(4)
 

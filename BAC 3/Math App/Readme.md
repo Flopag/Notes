@@ -82,5 +82,6 @@
 - [TP 5](TP/TP%205.md) Equation d'onde et changement de variable
 - [TP 6](TP/TP%206.md) Conditions initiale d'un équation de diffusion
 - [TP 7-8](TP/TP%207-8.md) Variable séparable (partie 1)
+- [TP 9](TP/TP%209.md) Equation de transport non linéaire (suite)
 
 

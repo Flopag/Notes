@@ -56,7 +56,10 @@
 
 ### Chapitre 5 : Ondes
 
+- [Effet de peau](Notion/Effet%20de%20peau.md)
 - [Equation d'onde](Notion/Equation%20d'onde.md)
+- [Puissance](Notion/Puissance.md)
+- [Vecteur de Poynting](Notion/Vecteur%20de%20Poynting.md)
 
 ### Chapitre 6 : Conditions limites
 
