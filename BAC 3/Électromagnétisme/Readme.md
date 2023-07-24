@@ -76,3 +76,4 @@
 - [TP 3](TP/TP%203.md) Electrostatique (image et diélectrique)
 - [TP 4](TP/TP%204.md) Magnétostatique (champs)
 - [TP 5](TP/TP%205.md) Magnétostatique (inductance)
+- [TP 6](TP/TP%206.md) Onde plane (partie 1)
