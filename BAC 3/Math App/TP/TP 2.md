@@ -34,5 +34,10 @@ $$
 / !  \\ Ne pas oublier de remplacer la constante dans l'expression de $(2)$ si elle y est
 
 5. Remplacer $x$ par $x(0) = x_0$ dans $(2)$ pour y trouver la constante
-6. Isoler $x_0$ dans l'équation trouvé au point 5
-7. Injecter l'expression du point 6 (l'expression de $x_0$) dans l'expression du point 4 (l'expression de $u$)
+6. Trouver une constante (de la même façon qu'au point 4) dans l'équation du point 5 (si besoin) (on obtient l'expression des lignes caractéristique) 
+7. Isoler $x_0$ dans l'équation trouvé au point 6
+8. Injecter l'expression du point 6 (l'expression de $x_0$) dans l'expression du point 4 (l'expression de $u$)
+
+## Dessiner les lignes caractéristiques
+
+Faire la méthode pour trouver la solution générale jusque au point 6 qui donne l'expression des lignes caractéristique
