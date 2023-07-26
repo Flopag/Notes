@@ -94,3 +94,28 @@ $$\left\{\begin{matrix}
 \end{matrix}\right.$$
 
 ![](attachments/Pasted%20image%2020230723152425.png)
+
+## Transmission d'une onde plane sur un [Conducteur](Conducteur.md)
+
+Conditions aux limite :
+
+$$\left\{\begin{matrix}
+
+\hat E_i+\hat E_r = \hat E_t\\
+\frac{\hat E_i}{\eta} - \frac{\hat E_r}{\eta} = \frac{\hat E_i}{Z}
+
+\end{matrix}\right.$$
+
+où $\eta = \sqrt{\mu_0/\varepsilon_0}$ et $Z=(1+j)/(\sigma\delta)$
+
+coefficient de réflexion :
+
+$$\rho = \frac{\hat E_r}{\hat E_i} = \frac{Z-\eta}{Z+\eta}$$
+
+Coefficient de transmission :
+
+$$\tau = \frac{\hat E_t}{\hat E_i} = \frac{2Z}{Z+\eta} = 1+\rho$$
+
+Conservation de la puissance *(voir démo slides chap6 p11)*
+
+![](attachments/Pasted%20image%2020230726110813.png)

@@ -42,7 +42,11 @@ avec
 
 ## Condition limite
 
-$$\hat n_{21} \bullet (\vec E_1-\vec E_2) = 0$$
+$$\hat n_{21} \times (\vec E_1-\vec E_2) = 0$$
 *(Demo ch 6 p6)*
 
 ![](attachments/Pasted%20image%2020230717152934.png)
+
+Si on est dans le cas d'un [Conducteur parfait](Conducteur.md) dans le milieu 2, on a une conductivité $\sigma \rightarrow \infty$  et donc l'[épaisseur de peau](Effet%20de%20peau.md) est $\delta \rightarrow 0$, ce qui donne la condition limite :
+
+$$\hat n_{21} \times (\hat{\vec E_1}) = 0$$

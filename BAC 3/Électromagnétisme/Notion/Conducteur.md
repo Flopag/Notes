@@ -62,3 +62,18 @@ $$V = \frac{1}{4\pi\varepsilon_0} \int_V{\frac{\rho_{liées}(\vec r')}{|\vec r -
 
 Demo dans les slides pages 32/33 et dans les notes cours 1
 
+### Dissipation
+
+Certain diélectrique ont des perte au niveau de la polarisation, ces pertes sont modèlisé en ajoutant une partie imaginaire à la permittivité :
+
+$$\varepsilon = \varepsilon '+\varepsilon ''_{perte \ diélectrique}$$
+
+Ce qui donne la [permittivité effective](Vecteur%20de%20Poynting.md) suivante :
+
+$$\tilde \varepsilon =\varepsilon' -j\varepsilon''$$
+
+où $\varepsilon'' = \varepsilon''_{perte \ diélectrique} + \frac{\sigma}{\omega}$
+
+On peut aussi exprimer la perte par le concept de tangente $\delta$ (/ ! \\ ce n'est pas le même $\delta$ que [Effet de peau](Effet%20de%20peau.md)) :
+
+$$tan \ \delta = \frac{\varepsilon''}{\varepsilon'}$$

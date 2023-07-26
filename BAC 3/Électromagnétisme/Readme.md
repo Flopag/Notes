@@ -56,6 +56,7 @@
 
 ### Chapitre 5 : Ondes
 
+- [Conducteur](Notion/Conducteur.md)
 - [Effet de peau](Notion/Effet%20de%20peau.md)
 - [Equation d'onde](Notion/Equation%20d'onde.md)
 - [Puissance](Notion/Puissance.md)
@@ -67,7 +68,11 @@
 - [Champ électrique](Notion/Champ%20électrique.md)
 - [Champ magnétique](Notion/Champ%20magnétique.md)
 - [Déplacement électrique](Notion/Déplacement%20électrique.md)
-- pas fini !
+- [Vecteur de Poynting](Notion/Vecteur%20de%20Poynting.md)
+
+### Chapitre 7 : Lignes de transmission
+
+- [Guide d'onde](Notion/Guide%20d'onde.md)
 
 ## Travaux pratique
 
