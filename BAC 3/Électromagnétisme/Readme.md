@@ -82,3 +82,4 @@
 - [TP 4](TP/TP%204.md) Magnétostatique (champs)
 - [TP 5](TP/TP%205.md) Magnétostatique (inductance)
 - [TP 6](TP/TP%206.md) Onde plane (partie 1)
+- [TP 7](TP/TP%207.md) Onde plane (partie 2)
