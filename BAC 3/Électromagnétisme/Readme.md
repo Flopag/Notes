@@ -94,3 +94,5 @@
 4. [Équation d'onde dans le domaine fréquentiel](Questions/Q7.4.md)
 5. [Réflexion en bout de ligne](Questions/Q7.5.md)
 6. [Impédance d'entrée](Questions/Q7.6.md)
+7. [Coefficient de réflexion généralisé, allure de la tension de la ligne, extrema de tension, taux d'onde stationnaire](Questions/Q7.7.md)
+8. [Transitoire sur une ligne de transmission idéale](Questions/Q7.8.md)
