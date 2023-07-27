@@ -83,3 +83,14 @@
 - [TP 5](TP/TP%205.md) Magnétostatique (inductance)
 - [TP 6](TP/TP%206.md) Onde plane (partie 1)
 - [TP 7](TP/TP%207.md) Onde plane (partie 2)
+
+## Questions
+
+### Lignes de transmission
+
+1. /
+2. /
+3. [Modèle des télégraphistes](Questions/Q7.3.md)
+4. [Équation d'onde dans le domaine fréquentiel](Questions/Q7.4.md)
+5. [Réflexion en bout de ligne](Questions/Q7.5.md)
+6. [Impédance d'entrée](Questions/Q7.6.md)
