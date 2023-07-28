@@ -97,3 +97,9 @@
 6. [Impédance d'entrée](Questions/Q7.6.md)
 7. [Coefficient de réflexion généralisé, allure de la tension de la ligne, extrema de tension, taux d'onde stationnaire](Questions/Q7.7.md)
 8. [Transitoire sur une ligne de transmission idéale](Questions/Q7.8.md)
+
+### Guide d'ondes
+
+1. [Guide d'ondes à plans conducteurs parallèle, mode TE](Questions/Q8.1.md)
+2. [Décomposition d'un mode TE en modes TEM](Questions/Q8.2.md)
+3. [Vitesse de phase, vitesse de groupe, régime d'atténuation sans dissipation. Relation $\omega(\beta)$](Questions/Q8.3.md)
