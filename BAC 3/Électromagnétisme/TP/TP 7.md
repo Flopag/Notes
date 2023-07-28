@@ -1,4 +1,4 @@
-# TP 7 : onde plane
+# TP 7 : Champs variable (partie 2)
 
 ## Théorie
 

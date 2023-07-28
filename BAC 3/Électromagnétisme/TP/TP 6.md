@@ -1,4 +1,4 @@
-# TP 6 : Onde plane (partie 1)
+# TP 6 : Champs variable (partie 1)
 
 ## Théorie
 
