@@ -1,4 +1,4 @@
-# TP 8 : Ondes
+# TP 8 : Lignes régime harmonique (paramètre unitaires)
 
 ## Théorie
 

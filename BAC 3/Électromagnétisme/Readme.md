@@ -81,9 +81,10 @@
 - [TP 3](TP/TP%203.md) Electrostatique (image et diélectrique)
 - [TP 4](TP/TP%204.md) Magnétostatique (champs)
 - [TP 5](TP/TP%205.md) Magnétostatique (inductance)
-- [TP 6](TP/TP%206.md) Champs variable (partie 1)
-- [TP 7](TP/TP%207.md) Champs variable (partie 2)
-- [TP 8](TP/TP%208.md) Ondes
+- [TP 6](TP/TP%206.md) Ondes (partie 1)
+- [TP 7](TP/TP%207.md) Ondes (partie 2)
+- [TP 8](TP/TP%208.md) Lignes régime harmonique (paramètre unitaires)
+- [TP 9](TP/TP%209.md) Ligne régime harmonique (paramètre unitaires, description)
 
 ## Questions
 
