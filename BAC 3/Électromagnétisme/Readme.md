@@ -104,4 +104,7 @@
 
 1. [Guide d'ondes à plans conducteurs parallèle, mode TE](Questions/Q8.1.md)
 2. [Décomposition d'un mode TE en modes TEM](Questions/Q8.2.md)
-3. [Vitesse de phase, vitesse de groupe, régime d'atténuation sans dissipation. Relation $\omega(\beta)$](Questions/Q8.3.md)
+3. [Vitesse de phase, vitesse de groupe, régime d'atténuation sans dissipation.](Questions/Q8.3.md)
+4. [Mode TM : solution, caractéristiques de propagation, mode TM_0](Questions/Q8.4.md)
+5. [Guide d'ondes de section rectangulaire : modes TE existants dans le guide à plans conducteurs parallèles](Questions/Q8.5.md)
+6. [Principe du guide d'onde diélectrique réflexion totale](Questions/Q8.6.md)
