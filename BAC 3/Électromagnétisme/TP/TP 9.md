@@ -28,7 +28,7 @@ avec :
 
 En haute fréquence, $I$ est uniforme dans le conducteur
 
-En basse fréquence, $I$ est uniforme sur une épesseur de peau $\delta$
+En basse fréquence, $I$ est uniforme sur une épaisseur de peau $\delta$
 
 Solution des équation des télégraphiste :
 
@@ -52,7 +52,7 @@ $$\alpha = 0$$
 
 $$\beta = \omega\sqrt{LC}$$
 
-Pour une ligne a faible perte ($R << \omega L, G << \omega c$) :
+Pour une ligne a faible perte ($R << \omega L, G << \omega C$) :
 
 $$Z_0 = \sqrt{\frac L C}$$
 
@@ -67,3 +67,34 @@ $$Z_0 = \sqrt{\frac{R+j\omega L}{G+j\omega C}}$$
 $$\gamma = \sqrt{(R+j\omega L) (G+j\omega C)}$$
 
 ## Méthodes
+
+### Cette ligne travaille-t-elle en régime de haute ou de basse fréquence ?
+
+Basse fréquence si l'épaisseur de peau $\delta = \sqrt{\frac 2 {\omega\mu\sigma}}$ est plus grande que le rayon du cable
+
+### Cette ligne travaille-t-elle en régime de faible pertes ?
+
+Faible perte si $R << \omega L$ et $G << \omega C$
+
+### Déterminer la vitesse de phase
+
+$$v_p = \frac \omega \beta$$
+
+où $\beta = \Im\{\gamma\}$
+
+### Déterminer les paramètre unitaire $C$, $L$, $R$ et $G$, l'impédance caractéristique $Z_0$ et le coefficient d'atténuation
+
+1. Haute fréquence ou basse fréquence?
+2. Calculer $Y=j\omega\tilde \varepsilon f(d)$
+	1. où 
+	2. $\tilde \varepsilon = \varepsilon' - j(\varepsilon''_{pol} + \frac \sigma \omega)$
+	3. $C = \Im\{\frac Y \omega\}$ (à vérifier)
+	4. $G = \Re\{Y\}$
+3. Calculer $R=R_{conducteur intérieur} + R_{conducteur extérieur}$ 
+	1. $R_i$ sont calculer à l'aide de la loi de Pouillet : $R = \frac 1 {\sigma \delta \Delta y}$
+	2. où
+	3. $\delta = rayon$ si $\delta > rayon$
+	4. $\Delta y = 2\pi r$ (pour un cercle)
+4. Calculer $L$ comme dans le [TP 5](TP%205.md) ($L_{tot} = \sum{L_i}$)
+5. Faible perte, idéal ou cas générale ?
+6. Calculer $Z_0$ et $\alpha$ en fonction du point 5

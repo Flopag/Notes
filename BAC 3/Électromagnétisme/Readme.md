@@ -85,6 +85,7 @@
 - [TP 7](TP/TP%207.md) Ondes (partie 2)
 - [TP 8](TP/TP%208.md) Lignes régime harmonique (paramètre unitaires)
 - [TP 9](TP/TP%209.md) Ligne régime harmonique (paramètre unitaires, description)
+- [TP 10](TP/TP%2010.md) Lignes régime harmonique (adaptation et puissance)
 
 ## Questions
 
