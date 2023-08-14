@@ -89,6 +89,24 @@
 
 ## Questions
 
+### Introduction
+
+1. [Notion de circuits localisés / distribués](Questions/Q1.1.md)
+2. [relation entre fréquence et longueur d’onde](Questions/Q1.2.md)
+
+### Electrostatique
+
+1. [Loi de Coulomb, relation entre force et champ électrique, principe de superposition, densité de charge, champ électrique dans la limite continue](Questions/Q2.1.md)
+2. [Lignes de champ](Questions/Q2.2.md)
+3. [loi de Gauss](Questions/Q2.3.md)
+4. [Stockes et rotationnel du champ électrique](Questions/Q2.4.md)
+5. [Potentiel électrique](Questions/Q2.5.md)
+6. [Conducteur parfait et cage de Faraday](Questions/Q2.6.md)
+7. [a faire](Questions/Q2.7.md)
+8. [prisme droit uniformément polarisé et du solide à section transverse trapézoïdale uniformément polarisé](Questions/Q2.8.md)
+9. [Définition d’un matériau linéaire, homogène et isotrope.](Questions/Q2.9.md)
+10. [Déplacement électrique](Questions/Q2.10.md)
+11. [a faire](Questions/Q2.11.md)
 ### Lignes de transmission
 
 1. /

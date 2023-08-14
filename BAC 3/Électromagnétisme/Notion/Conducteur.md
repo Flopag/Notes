@@ -24,7 +24,7 @@ Une cage de Faraday est un volume quelconque entouré d'un autre volume composé
 
 Un conducteur diélectrique est un conducteur dont les [Charge](Charge.md) de volume sont qualifiées comme étant liées. Les [Charge](Charge.md) ne peuvent donc pas se déplacer mais seulement pivoter (peut donc être polarisé) autrement dit, elles sont liée
 
-/ ! \ diélectrique (polarisable) $\neq$ isolant (faible conductivité)
+/ ! \\ diélectrique (polarisable) $\neq$ isolant (faible conductivité)
 
 ### Mécanique de polarisation
 

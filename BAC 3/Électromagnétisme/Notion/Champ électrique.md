@@ -14,7 +14,7 @@ Les lignes sont parallèle à $\vec E$ et leur densité est proportionnelle à $
 
 Les lignes commencent sur des [Charge](Charge.md) positives et se termine sur des [Charge](Charge.md) négatives
 
-/ ! \ les lignes de champs ne se croisent jamais
+/ ! \\ les lignes de champs ne se croisent jamais
 
 ![](attachments/Pasted%20image%2020230712145840.png)
 
