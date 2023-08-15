@@ -51,6 +51,6 @@ avec :
 
 On peut voir que le processus est irréversible
 
-L'énergie dissipé est l'aire intérieur de la courbe :
+L'énergie dissipé par unité de volume et par cycle est l'aire intérieur de la courbe :
 
-$$E = \oint_{cycle}{H \ dB}$$
+$$\frac E V = \oint_{cycle}{H \ dB}$$

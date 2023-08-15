@@ -89,12 +89,12 @@
 
 ## Questions
 
-### Introduction
+### 1. Introduction
 
 1. [Notion de circuits localisés / distribués](Questions/Q1.1.md)
 2. [relation entre fréquence et longueur d’onde](Questions/Q1.2.md)
 
-### Electrostatique
+### 2. Electrostatique
 
 1. [Loi de Coulomb, relation entre force et champ électrique, principe de superposition, densité de charge, champ électrique dans la limite continue](Questions/Q2.1.md)
 2. [Lignes de champ](Questions/Q2.2.md)
@@ -107,7 +107,24 @@
 9. [Définition d’un matériau linéaire, homogène et isotrope.](Questions/Q2.9.md)
 10. [Déplacement électrique](Questions/Q2.10.md)
 11. [a faire](Questions/Q2.11.md)
-### Lignes de transmission
+
+### 3. Magnétostatique
+
+1. [Force magnétique, notion d’induction magnétique, force de Lorentz, de Laplace.](Questions/Q3.1.md)
+2. [Densité de courant : définition et équation de continuité.](Questions/Q3.2.md)
+3. [Loi de Biot Savart](Questions/Q3.3.md)
+4. [Divergence et rotationnel de l’induction](Questions/Q3.4.md)
+5. [Matériaux magnétiques](Questions/Q3.5.md)
+6. [Hypothèse des courants microscopiques](Questions/Q3.6.md)
+7. [Définition du champ magnétique, loi d’Ampère et relations entre $\vec H$ et $\vec M$ pour un milieu linéaire, homogène et isotrope](Questions/Q3.7.md)
+8. [Matériaux ferromagnétiques et cycle d’hystérésis](Questions/Q3.8.md)
+9. [Caractéristiques principales des matériaux ferromagnétiques doux et durs](Questions/Q3.9.md)
+
+### 4. Phénomènes variables dans le temps
+
+1. 
+
+### 7. Lignes de transmission
 
 1. /
 2. /
@@ -118,7 +135,7 @@
 7. [Coefficient de réflexion généralisé, allure de la tension de la ligne, extrema de tension, taux d'onde stationnaire](Questions/Q7.7.md)
 8. [Transitoire sur une ligne de transmission idéale](Questions/Q7.8.md)
 
-### Guide d'ondes
+### 8. Guide d'ondes
 
 1. [Guide d'ondes à plans conducteurs parallèle, mode TE](Questions/Q8.1.md)
 2. [Décomposition d'un mode TE en modes TEM](Questions/Q8.2.md)
