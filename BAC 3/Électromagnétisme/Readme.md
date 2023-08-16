@@ -31,7 +31,7 @@
 - [Théorème de la divergence de Gauss](Notion/Théorème%20de%20la%20divergence%20de%20Gauss.md)
 - [Théorème de Stokes](Notion/Théorème%20de%20Stokes.md)
 
-### Chapitre 3 : Magnéto-statique
+### Chapitre 3 : Magnétostatique
 
 - [Champ d'induction magnétique](Notion/Champ%20d'induction%20magnétique.md)
 - [Champ magnétique](Notion/Champ%20magnétique.md)
@@ -122,7 +122,25 @@
 
 ### 4. Phénomènes variables dans le temps
 
-1. 
+1. [Équations de Maxwell](Questions/Q4.1.md)
+2. [continuité avec le courant de conduction](Questions/Q4.2.md)
+3. [Théorème de Poynting](Questions/Q4.3.md)
+4. [Phaseurs et équations de Maxwell dans le domaine fréquentiel](Questions/Q4.4.md)
+
+### 5. Propagation d'onde planes
+
+1. [Équations d’ondes dans un milieu LHI](Questions/Q5.1.md)
+2. [Onde plane dans un milieu isolant](Questions/Q5.2.md)
+3. [Onde plane dans un milieu conducteur](Questions/Q5.3.md)
+4. [Limites de faible conductivité électrique et milieux bons conducteurs](Questions/Q5.4.md)
+5. [Effet de peau : calcul de la puissance dissipée dans un bloc de cuivre](Questions/Q5.5.md)
+6. [ Effet de peau dans un conducteur cylindrique alimenté par un courant de fréquence variable](Questions/Q5.6.md)
+7. [Dissipation dans les diélectriques](Questions/Q5.7.md)
+
+### 6. Conditions aux limites
+
+1. [Conditions aux limites : démonstration](Questions/Q6.1.md)
+2. [Coefficients de réflexion et de transmission. Bilan énergétique](Questions/Q6.2.md)
 
 ### 7. Lignes de transmission
 
