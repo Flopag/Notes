@@ -91,7 +91,7 @@
 
 ### 1. Introduction
 
-1. [Notion de circuits localisés / distribués](Questions/Q1.1.md)
+1. [Notion de circuits localisés / distribués](BAC%203/Électromagnétisme/Questions/Q1.1.md)
 2. [relation entre fréquence et longueur d’onde](Questions/Q1.2.md)
 
 ### 2. Electrostatique
