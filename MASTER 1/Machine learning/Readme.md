@@ -11,7 +11,7 @@ For all methods, you should be able provide their **main drawbacks** and **stren
 5. **Variance reduction techniques**: techniques to reduce variance in the context of the different learning algorithms covered in the course (regularization, complexity control, ensemble methods, feature selection), discussion and comparison of the different learning algorithms from the point of view of their bias and variance.
 6. **[Classification and regression trees](Questions/Q6.md)**: hypothesis space, growing and pruning algorithms, impurity measures, extensions to regression and continuous attributes, interpretability.
 7. **Linear regression**: problem formulation, analytical solution, introduction of a regularization term (motivation and modified solution), linear regression with kernels.
-8. **K-Nearest Neighbors methods**: 1-NN and k-NN algorithms, refinements, relations with tree-based, linear, and kernel methods.
+8. [**K-Nearest Neighbors methods**](Questions/Q8.md): 1-NN and k-NN algorithms, refinements, relations with tree-based, linear, and kernel methods.
 9. **From single neuron models to multilayer perceptrons**: single neuron models (batch vs online learning, hard and soft threshold unit, theoretical properties), multilayer perceptrons (definition, representation capacity, general principles of the training algorithm).
 10. **Neural networks**: multilayer perceptrons (definition, representation capacity, back-propagation, techniques to avoid overfitting)
 11. **Support vector machines**: main notions (classification margin, optimization problem, support vectors, soft margin), general idea of the kernel trick.
