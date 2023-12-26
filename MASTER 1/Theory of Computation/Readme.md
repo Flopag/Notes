@@ -1,5 +1,7 @@
 # Theory of Computation
 
+in the exam, there will be a reduction to make!
+
 ## Questions
 
 1. [Q1](Questions/Q1.md) Show that the set of all languages is not countable
