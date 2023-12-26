@@ -20,3 +20,8 @@ For all methods, you should be able provide their **main drawbacks** and **stren
 14. **Feature selection**: motivation, filter, embedded, and wrapper techniques (give examples of approaches in each family and discuss their main advantages and drawbacks), selection bias.
 15. **Clustering methods**: problem definition and motivation, hierarchical clustering, k-means, determination of the number of clusters.
 16. ~~**Dimensionality reduction**: motivation, principal component analysis (optimisation problem, analytical solution, interpretation), extensions and other methods (general ideas only).~~
+
+## Frequently asked questions
+
+- [**Chapter 2**: Classification and regression trees](Frequently_asked_question/Chapter2.md)
+- [**Chapter 3**: Linear regression](Frequently_asked_question/Chapter3.md)
