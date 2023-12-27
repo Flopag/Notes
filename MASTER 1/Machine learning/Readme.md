@@ -25,3 +25,4 @@ For all methods, you should be able provide their **main drawbacks** and **stren
 
 - [**Chapter 2**: Classification and regression trees](Frequently_asked_question/Chapter2.md)
 - [**Chapter 3**: Linear regression](Frequently_asked_question/Chapter3.md)
+- [**Chapter 4**: Nearest neighbour methods](Frequently_asked_question/Chapter4.md)
