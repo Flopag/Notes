@@ -15,7 +15,7 @@ For all methods, you should be able provide their **main drawbacks** and **stren
 9. [**From single neuron models to multilayer perceptrons**](Questions/Q9.md): single neuron models (batch vs online learning, hard and soft threshold unit, theoretical properties), multilayer perceptrons (definition, representation capacity, general principles of the training algorithm).
 10. [**Neural networks**](Questions/Q10.md): multilayer perceptrons (definition, representation capacity, back-propagation, techniques to avoid overfitting)
 11. [**Support vector machines**](Questions/Q11.md): main notions (classification margin, optimization problem, support vectors, soft margin), general idea of the kernel trick.
-12. **Kernel methods**: kernel definition, kernel trick, examples of kernels and of kernel methods. Discuss the interest of kernel methods in general. Kernel interpretation of trees and linear classification.
+12. [**Kernel methods**](Questions/Q12.md): kernel definition, kernel trick, examples of kernels and of kernel methods. Discuss the interest of kernel methods in general. Kernel interpretation of trees and linear classification.
 13. **Ensemble methods**: motivation and algorithms (bagging, random forests, boosting, stacking…), ambiguity decomposition.
 14. **Feature selection**: motivation, filter, embedded, and wrapper techniques (give examples of approaches in each family and discuss their main advantages and drawbacks), selection bias.
 15. **Clustering methods**: problem definition and motivation, hierarchical clustering, k-means, determination of the number of clusters.
