@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MASTER 1/Machine learning/Readme.md",
+                "file": "MASTER 1/Machine learning/Questions/Q8.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MASTER 1/Machine learning/Readme.md",
+                "file": "MASTER 1/Machine learning/Questions/Q8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MASTER 1/Machine learning/Readme.md",
+                "file": "MASTER 1/Machine learning/Questions/Q8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MASTER 1/Machine learning/Readme.md"
+                "file": "MASTER 1/Machine learning/Questions/Q8.md"
               }
             }
           },
@@ -185,8 +185,8 @@
   },
   "active": "80e405a8a8b09c77",
   "lastOpenFiles": [
-    "MASTER 1/Machine learning/Questions/Q15.md",
     "MASTER 1/Machine learning/Readme.md",
+    "MASTER 1/Machine learning/Questions/Q15.md",
     "MASTER 1/Machine learning/Questions/attachments/Pasted image 20231229150532.png",
     "MASTER 1/Machine learning/Questions/attachments/Pasted image 20231229145933.png",
     "MASTER 1/Machine learning/Questions/attachments/Pasted image 20231229145924.png",
