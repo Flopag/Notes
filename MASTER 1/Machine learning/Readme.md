@@ -18,7 +18,7 @@ For all methods, you should be able provide their **main drawbacks** and **stren
 12. [**Kernel methods**](Questions/Q12.md): kernel definition, kernel trick, examples of kernels and of kernel methods. Discuss the interest of kernel methods in general. Kernel interpretation of trees and linear classification.
 13. [**Ensemble methods**](Questions/Q13.md): motivation and algorithms (bagging, random forests, boosting, stacking…), ambiguity decomposition.
 14. [**Feature selection**](Questions/Q14.md): motivation, filter, embedded, and wrapper techniques (give examples of approaches in each family and discuss their main advantages and drawbacks), selection bias.
-15. **Clustering methods**: problem definition and motivation, hierarchical clustering, k-means, determination of the number of clusters.
+15. [Q15](Questions/Q15.md): problem definition and motivation, hierarchical clustering, k-means, determination of the number of clusters.
 16. ~~**Dimensionality reduction**: motivation, principal component analysis (optimisation problem, analytical solution, interpretation), extensions and other methods (general ideas only).~~
 
 ## Frequently asked questions
