@@ -33,29 +33,20 @@ questions and their answers.
 
 ## Generalities
 
-- What is bootstrapping? (Slide 1-5)
-- How do you compare compiling and interpreting? (Slides 1-6, 1-7)
-- What is a linker, and what is its purpose? (Slide 1-8)
-- Why do we use an intermediate representation in compilers? (Slides
-  1-10, 1-11, 5-6)
-- What are the various stages of a typical compiler?  Shortly describe
-  their purpose. (Slide 1-12)
+- [What is bootstrapping? (Slide 1-5)](Questions/Q1/Q1.1.md)
+- [How do you compare compiling and interpreting? (Slides 1-6, 1-7)](Questions/Q1/Q1.2.md)
+- [What is a linker, and what is its purpose? (Slide 1-8)](Questions/Q1/Q1.3.md)
+- [Why do we use an intermediate representation in compilers? (Slides 1-10, 1-11, 5-6)](Questions/Q1/Q1.4.md)
+- [What are the various stages of a typical compiler?  Shortly describe their purpose. (Slide 1-12)](Questions/Q1/Q1.5.md)
 
 ## Lexical analysis 
 
-- How is lexical analysis performed efficiently?  Assume you have a
-  certain amount of regular expressions describing tokens: how do you
-  generate a lexer?
-- Describe the steps to transform a regular expression into an
-  non-deterministic finite automaton. (See slides 2-20, 2-21)
-- How to use for a lexer a non-deterministic finite automaton
-  representing a language? (Slides 2-22 -- 2-31)
-- Why transform a non-deterministic finite automaton into a
-  deterministic one, in the context of lexical analysis? (Slides 2-34 -- 2.40)
-- How to use for a lexer a deterministic finite automaton representing a
-  language? (Slides 2-36 -- 2-37)
-- Explain how lexical analysis should be tweaked to handle languages
-  where blocks are indentation based. (Slide 2-43)
+- [How is lexical analysis performed efficiently?  Assume you have a  certain amount of regular expressions describing tokens: how do you  generate a lexer?](Questions/Q2/Q2.1.md)
+- [Describe the steps to transform a regular expression into an  non-deterministic finite automaton. (See slides 2-20, 2-21)](Questions/Q2/Q2.2.md)
+- [How to use for a lexer a non-deterministic finite automaton  representing a language? (Slides 2-22 -- 2-31)](Questions/Q2/Q2.3.md)
+- [Why transform a non-deterministic finite automaton into a  deterministic one, in the context of lexical analysis? (Slides 2-34 -- 2.40)](Questions/Q2/Q2.4.md)
+- [How to use for a lexer a deterministic finite automaton representing a  language? (Slides 2-36 -- 2-37)](Questions/Q2/Q2.5.md)
+- [Explain how lexical analysis should be tweaked to handle languages  where blocks are indentation based. (Slide 2-43)](Questions/Q2/Q2.6.md)
 
 ## Syntax analysis
 
