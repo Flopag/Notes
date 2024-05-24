@@ -52,62 +52,36 @@ questions and their answers.
 
 - Why not merge lexical analysis into syntactical analysis (describing
   the grammar to a sub-token level)? (Slide 1-19, 2-7)
-- Assuming we know what a grammar is, what is the particularity of a
-  regular grammar?  A context-free grammar? (Slide 3-12)
+- [Assuming we know what a grammar is, what is the particularity of a regular grammar?  A context-free grammar? (Slide 3-12)](Questions/Q3/Q3.2.md)
 - What are the Chomsky's types for context-free grammars and regular
   grammars?  What does it mean for a grammar to have a small/large
   Chomsky's type w.r.t. automation and expressivity?  Where are, in the
   Chomsky's hierarchy, the languages that can be decided (i.e. such that
   there is program that always terminates and decides whether some text
   belongs to the language or not). (Slide 3-12)
-- Give an example of a language that can be represented by a
-  context-free grammar and not a regular one.  (Slide 3-13)
-- What is a left-most/right-most derivation of a context-free grammar?
-  (Slide 3-15)
-- Are there words that only have left-most derivations? (Slide 3-15)
-- How could you describe the purpose of syntax analysis, w.r.t. the
-  parse tree of a sequence of tokens?  (Slide 3-16)
+- [Give an example of a language that can be represented by a context-free grammar and not a regular one.  (Slide 3-13)](Questions/Q3/Q3.4.md)
+- [What is a left-most/right-most derivation of a context-free grammar? (Slide 3-15)](Questions/Q3/Q3.5.md)
+- [Are there words that only have left-most derivations? (Slide 3-15)](Questions/Q3/Q3.6.md)
+- [How could you describe the purpose of syntax analysis, w.r.t. the parse tree of a sequence of tokens?  (Slide 3-16)](Questions/Q3/Q3.7.md)
 - Is the parse tree unique?  How do you call a grammar such that parse
   trees are unique?  Should we enforce working only with such grammars?
   (Slides 3-18 -- 3-20, 3-125)
-- Could you provide an example of an ambiguous grammar? (Slide 3-18, or
-  3-21, or many other possibilities)
-- What is left/right-associativity of an operator? (Slide 3-22)  Why is
-  it useful to consider an associative operator to be only left or right
-  associative? (Slide 3-23)
-- What parsing problem (called dangling else) is linked to parsing of
-  if-then(-else), and how to solve it?  (Slides 3-25, 3-26, 3-58)
-- Could you cite a few examples of things that are commonly used in
-  programming languages but that are not captured by context-free
-  grammars? (Slide 3-28)  How is this typically solved?  Why not simply
-  go for more expressive grammars?
-- Why are left-recursive grammars a problem with top-down parsers. How
-  can this be solved, when the grammar is left-recursive because of
-  associative symbols?  (Slides 3-37, 3-55, 3-56)
-- What is an LL(1) grammar?  (Slide 3-39)  How does this relates to
-  top-down parsing? (See 3-42 and following)
-- Describe in your own words what `Nullable(alpha)`, `First(alpha)` and
-  `Follow(A)` are, where `alpha` is a sequence of symbols, and `A` a
-  non-terminal.  (Slide 3-44)  How can this help to build a top-down
-  parser?  (Slide 3-46, 3-47)
-- Sometimes, several rules might have the same prefix, which is
-  typically a problem for top-down parsing, to decide which rule
-  applies.  Could you explain a possible solution? (Slide 3-58)
-- Explain in a few sentences and in your own words how a bottom-up
-  shift-reduce parser works.  (Slides 3-66 -- 3-80)
-- What is the configuration of an LR parser?  (Slide 3-84)
-- Given a configuration of an LR parser, what information give the
-  `Action` and `Goto` tables? (Slides 3-85, 3-86, see also examples
-  slides 3-87, 3-88)
+- [Could you provide an example of an ambiguous grammar? (Slide 3-18, or 3-21, or many other possibilities)](Questions/Q3/Q3.9.md)
+- [What is left/right-associativity of an operator? (Slide 3-22)  Why is it useful to consider an associative operator to be only left or right associative? (Slide 3-23)](Questions/Q3/Q3.10.md)
+- [What parsing problem (called dangling else) is linked to parsing of if-then(-else), and how to solve it?  (Slides 3-25, 3-26, 3-58)](Questions/Q3/Q3.11.md)
+- [Could you cite a few examples of things that are commonly used in programming languages but that are not captured by context-free grammars? (Slide 3-28)  How is this typically solved?  Why not simply go for more expressive grammars?](Questions/Q3/Q3.12.md)
+- [Why are left-recursive grammars a problem with top-down parsers. How can this be solved, when the grammar is left-recursive because of associative symbols?  (Slides 3-37, 3-55, 3-56)](Questions/Q3/Q3.13.md)
+- [What is an LL(1) grammar?  (Slide 3-39)  How does this relates to top-down parsing? (See 3-42 and following)](Questions/Q3/Q3.14.md)
+- [Describe in your own words what `Nullable(alpha)`, `First(alpha)` and `Follow(A)` are, where `alpha` is a sequence of symbols, and `A` a non-terminal.  (Slide 3-44)  How can this help to build a top-down parser?  (Slide 3-46, 3-47)](Questions/Q3/Q3.15.md)
+- [Sometimes, several rules might have the same prefix, which is typically a problem for top-down parsing, to decide which rule applies.  Could you explain a possible solution? (Slide 3-58)](Questions/Q3/Q3.16.md)
+- [Explain in a few sentences and in your own words how a bottom-up shift-reduce parser works.  (Slides 3-66 -- 3-80)](Questions/Q3/Q3.17.md)
+- [What is the configuration of an LR parser?  (Slide 3-84)](Questions/Q3/Q3.18.md)
+- [Given a configuration of an LR parser, what information give the `Action` and `Goto` tables? (Slides 3-85, 3-86, see also examples slides 3-87, 3-88)](Questions/Q3/Q3.19.md)
 - I will not ask questions on the inner workings of an SLR parser and
   the building of the SLR table. (Slides 3-91 -- 3-103)
 - I will not ask questions on slide 3-104.
 - I will not ask questions on weak precedence parsers. (3.107 -- 3-124)
-- But I assume you can explain how to remove an epsilon rule from a grammar
-  (Slide 3-122), how to fix ambiguous grammars with precedence rules
-  (Slide 3-125) and all practicalities at the end of the chapter about Syntax
-  analysis.  If the subject comes up, I might ask easy questions, but I
-  will not particularly target this.
+- [But I assume you can explain how to remove an epsilon rule from a grammar (Slide 3-122), how to fix ambiguous grammars with precedence rules (Slide 3-125) and all practicalities at the end of the chapter about Syntax analysis.  If the subject comes up, I might ask easy questions, but I will not particularly target this.](Questions/Q3/Q3.23%20(todo).md)
 
 ## Semantic analysis
 
