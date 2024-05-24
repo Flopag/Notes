@@ -85,21 +85,10 @@ questions and their answers.
 
 ## Semantic analysis
 
-- Why is semantic analysis required?  That is, why all this is not
-  captured in the syntax analysis? (See e.g. slide 3-28, 4-5)
-- What is a syntax-directed definition? (Slide 4-8)  Could you provide
-  an easy example? (See for instance slide 4-9: the SDD gives clear
-  rules to compute the numbers of a's and c's)
-- What is a synthesized/inherited attribute?  (Slide 4-10)  Provide an
-  example.  (Slide 4-11 for synthesized attribute, an example of
-  inherited attribute is the symbol table with types in a type checker
-  for the expressions)
-- In the context of syntax-directed definitions, where you have both
-  synthesized and inherited attributes, what kind of problems could you
-  face (solution: dependency cycles), and how to solve that? (solution:
-  for instance only synthesized attributes, or L-attributed grammar,
-  where attributes can be computed by a Euler-tour traversal, or in
-  general, make sure a topological order exists) (Slides 4-13 -- 4-15)
+- [Why is semantic analysis required?  That is, why all this is not captured in the syntax analysis? (See e.g. slide 3-28, 4-5)](Questions/Q4/Q4.1.md)
+- [What is a syntax-directed definition? (Slide 4-8)  Could you provide an easy example? (See for instance slide 4-9: the SDD gives clear rules to compute the numbers of a's and c's)](Questions/Q4/Q4.2.md)
+- [What is a synthesized/inherited attribute?  (Slide 4-10)  Provide an example.  (Slide 4-11 for synthesized attribute, an example of inherited attribute is the symbol table with types in a type checker for the expressions)](Questions/Q4/Q4.3.md)
+- [In the context of syntax-directed definitions, where you have both synthesized and inherited attributes, what kind of problems could you face (solution: dependency cycles), and how to solve that? (solution: for instance only synthesized attributes, or L-attributed grammar, where attributes can be computed by a Euler-tour traversal, or in general, make sure a topological order exists) (Slides 4-13 -- 4-15)](Questions/Q4/Q4.4.md)
 - In what respect does the abstract syntax tree differ from the parse
   tree?  Could you give an example?  (Slide 4-29)
 - What does *syntactic sugar* means?  What shall we do with it in the
