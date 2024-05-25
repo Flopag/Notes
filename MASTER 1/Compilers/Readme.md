@@ -97,14 +97,13 @@ questions and their answers.
 
 ## Intermediate representation
 
-- What is static single-assignment form (SSA)?  Can any program be
-  transformed into SSA? (Slides 5-10 -- 5-13)
+- [What is static single-assignment form (SSA)?  Can any program be transformed into SSA? (Slides 5-10 -- 5-13)](Questions/Q5/Q5.1.md)
 - I will not ask questions on continuation-passing style (Slides
   5-14 -- 5-16)
 - I assume that the translation into intermediate language is understood
   from the project, but be ready to answer questions about this on the
   project.
-- What is dead code elimination? (Slide 5-45)
+- [What is dead code elimination? (Slide 5-45)](Questions/Q5/Q5.4.md)
 
 ## Code generation
 
@@ -112,11 +111,8 @@ questions and their answers.
   6-6 -- 6-20)
 - I assume your understand how instruction selection could work (Slides
   6-22 -- 6-30) but I will not ask specific questions on this.
-- What is the problem with register allocation and translation of
-  intermediate language into assembly?  (Slide 6-32)
-- Could you provide a naive, yet working, way to circumvent the problem
-  of scarce registers when translating intermediate language into
-  assembly? (Slides 6-34 -- 6-35)
+- [What is the problem with register allocation and translation of intermediate language into assembly?  (Slide 6-32)](Questions/Q6/Q6.3.md)
+- [Could you provide a naive, yet working, way to circumvent the problem of scarce registers when translating intermediate language into assembly? (Slides 6-34 -- 6-35)](Questions/Q6/Q6.4.md)
 - How is register allocation (when translating intermediate language
   into assembly) related to graph colouring?  (understand the high level
   idea of slides 6-36 -- 6-45)
