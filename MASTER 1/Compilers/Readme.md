@@ -113,15 +113,8 @@ questions and their answers.
   6-22 -- 6-30) but I will not ask specific questions on this.
 - [What is the problem with register allocation and translation of intermediate language into assembly?  (Slide 6-32)](Questions/Q6/Q6.3.md)
 - [Could you provide a naive, yet working, way to circumvent the problem of scarce registers when translating intermediate language into assembly? (Slides 6-34 -- 6-35)](Questions/Q6/Q6.4.md)
-- How is register allocation (when translating intermediate language
-  into assembly) related to graph colouring?  (understand the high level
-  idea of slides 6-36 -- 6-45)
-- Describe in a few words Chaitin's algorithm for graph colouring.
-  (Slides 6-46 -- 6-49)
-- What are the heap and the stack?  Where do global variables go? What
-  about local variables for a function, or an array of integer allocated
-  using malloc? (Slides 6-53 -- 6-56)
-- How can garbage collection be implemented with reference counting?
-  (Slide 6-63 -- 6-65)
-- Explain briefly the idea behind tracing garbage collectors.
-  (Slide 6-66 -- 6-68)
+- [How is register allocation (when translating intermediate language into assembly) related to graph colouring?  (understand the high level idea of slides 6-36 -- 6-45)](Questions/Q6/Q6.5.md)
+- [Describe in a few words Chaitin's algorithm for graph colouring. (Slides 6-46 -- 6-49)](Questions/Q6/Q6.6.md)
+- [What are the heap and the stack?  Where do global variables go? What about local variables for a function, or an array of integer allocated using malloc? (Slides 6-53 -- 6-56)](Questions/Q6/Q6.7.md)
+- [How can garbage collection be implemented with reference counting? (Slide 6-63 -- 6-65)](Questions/Q6/Q6.8.md)
+- [Explain briefly the idea behind tracing garbage collectors. (Slide 6-66 -- 6-68)](Questions/Q6/Q6.9.md)
