@@ -8,10 +8,10 @@
 
 ## Geospatial Databases
 
-- What are geospatial databases, and how do they differ from traditional databases (both conceptual and physical? Give an example of a use case for a geospatial database, and explain how it represents, stores, and uses the spatial data
-- Describe how a geospatial database extends a database. What are two ways to represent geospatial data? What are their advantages and disadvantages?
-- When modeling data for a GIS, one needs to model the data using three important concepts. What are those concepts, and how are they related? Provide an example illustrating the role of each concept
-- What is a spatial coordinate system, and how are they used in a coordinate reference system? Why are spatial coordinate systems not sufficient in GIS?
+- [What are geospatial databases, and how do they differ from traditional databases (both conceptual and physical? Give an example of a use case for a geospatial database, and explain how it represents, stores, and uses the spatial data](Question/Q2/Q2.1.md)
+- [Describe how a geospatial database extends a database. What are two ways to represent geospatial data? What are their advantages and disadvantages?](Question/Q2/Q2.2.md)
+- [When modeling data for a GIS, one needs to model the data using three important concepts. What are those concepts, and how are they related? Provide an example illustrating the role of each concept](Question/Q2/Q2.3.md)
+- [What is a spatial coordinate system, and how are they used in a coordinate reference system? Why are spatial coordinate systems not sufficient in GIS?](Question/Q2/Q2.4.md)
 
 ## Data Warehouses and Data Architectures
 
