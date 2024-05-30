@@ -16,15 +16,12 @@
 ## Data Warehouses and Data Architectures
 
 - What is a data warehouse? Explain the four key characteristics of a data warehouse (put forward by Bill Inmon). Why are data warehouses important in Business Intelligence (BI) and decision-making?
-- What are the differences between a data warehouse and a data mart?
-- We have seen two approaches to building and using a data warehouse. What are the two approaches and their advantages and disadvantages?
-- When modeling data in a data warehouse, there are two important tables. Name and describe those two tables.
-- What is denormalization in NoSQL databases? Provide and describe an example of how denormalization can improve performance in a document store.
-- Describe the CAP theorem and how it relates to NoSQL databases. Explain the trade-offs between the three “guarantees” in a distributed NoSQL database.
-- The description must include their role in a data model. Give an example of the simplest data model in a data warehouse. What is the name of that model?
-- We have furthermore seen various models that can be built with fact- and dimension tables. What are the data models, and how do they differ?
-- Describe the differences and commonalities between the models behind relational databases and data warehouses.
-- Relational databases are used for OLTP, and data warehouses for OLAP. What do these acronyms stand for? Can you name and describe four other characteristic differences between OLTP and OLAP?
+- [What are the differences between a data warehouse and a data mart?](Question/Q3/Q3.2.md)
+- [We have seen two approaches to building and using a data warehouse. What are the two approaches and their advantages and disadvantages?](Question/Q3/Q3.3.md)
+- [When modeling data in a data warehouse, there are two important tables. Name and describe those two tables.The description must include their role in a data model. Give an example of the simplest data model in a data warehouse. What is the name of that model?](Question/Q3/Q3.4.md)
+- [We have furthermore seen various models that can be built with fact- and dimension tables. What are the data models, and how do they differ?](Question/Q3/Q3.5.md)
+- [Describe the differences and commonalities between the models behind relational databases and data warehouses.](Question/Q3/Q3.6.md)
+- [Relational databases are used for OLTP, and data warehouses for OLAP. What do these acronyms stand for? Can you name and describe four other characteristic differences between OLTP and OLAP?](Question/Q3/Q3.7.md)
 - How do dimension tables change over time? Describe SCD0 to SCD1, mentioning their advantages and disadvantages.
 - Describe the ETL and explain its role in data warehousing. What are some common challenges and best practices for ETL development and maintenance?
 - What are the 6 data quality dimensions? Provide an example of each.
@@ -38,12 +35,12 @@
 
 - What is the “definition” of NoSQL, and what is the motivation behind the movement and technologies?
 - Compare the data modeling approaches used in relational databases and XXX. Provide compelling examples of scenarios where one approach is preferred over the other.
-- Describe the key characteristics of XXX, including their data model, querying capabilities, possibilities, and limitations. Provide the name of a XXX database and explain how it differs from a relational database
+- Describe the key characteristics of XXX, including their data model, querying capabilities, possibilities, and limitations. Provide the name of a XXX database and explain how it differs from a relational database.
 - Describe the concepts of horizontal scaling, CAP, and BASE. How are these concepts related?
 - Discuss the trade-offs of choosing a NoSQL database over a relational database. When would it be appropriate to choose a NoSQL database over a relational database, and why? Conversely, when would it be appropriate to choose a relational database over a NoSQL database?
 - Explain the concept of eventual consistency in distributed NoSQL databases. How does the concept of consistency differ in ACID?
-- What is denormalization in NoSQL databases? Provide and describe an example of how denormalization can improve performance in a document store.
-- Describe the CAP theorem and how it relates to NoSQL databases. Explain the trade-offs between the three “guarantees” in a distributed NoSQL database. 
+- What is denormalization in NoSQL databases? Provide and describe an example of how denormalization can improve performance in a document store
+- Describe the CAP theorem and how it relates to NoSQL databases. Explain the trade-offs between the three “guarantees” in a distributed NoSQL database.
 
 ## NoSQL Database (focus on graph stores)
 
