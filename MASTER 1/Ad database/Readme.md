@@ -15,21 +15,21 @@
 
 ## Data Warehouses and Data Architectures
 
-- What is a data warehouse? Explain the four key characteristics of a data warehouse (put forward by Bill Inmon). Why are data warehouses important in Business Intelligence (BI) and decision-making?
+- [What is a data warehouse? Explain the four key characteristics of a data warehouse (put forward by Bill Inmon). Why are data warehouses important in Business Intelligence (BI) and decision-making?](Question/Q3/Q3.1.md)
 - [What are the differences between a data warehouse and a data mart?](Question/Q3/Q3.2.md)
 - [We have seen two approaches to building and using a data warehouse. What are the two approaches and their advantages and disadvantages?](Question/Q3/Q3.3.md)
 - [When modeling data in a data warehouse, there are two important tables. Name and describe those two tables.The description must include their role in a data model. Give an example of the simplest data model in a data warehouse. What is the name of that model?](Question/Q3/Q3.4.md)
 - [We have furthermore seen various models that can be built with fact- and dimension tables. What are the data models, and how do they differ?](Question/Q3/Q3.5.md)
 - [Describe the differences and commonalities between the models behind relational databases and data warehouses.](Question/Q3/Q3.6.md)
 - [Relational databases are used for OLTP, and data warehouses for OLAP. What do these acronyms stand for? Can you name and describe four other characteristic differences between OLTP and OLAP?](Question/Q3/Q3.7.md)
-- How do dimension tables change over time? Describe SCD0 to SCD1, mentioning their advantages and disadvantages.
+- [How do dimension tables change over time? Describe SCD0 to SCD1, mentioning their advantages and disadvantages.](Question/Q3/Q3.8.md)
 - Describe the ETL and explain its role in data warehousing. What are some common challenges and best practices for ETL development and maintenance?
-- What are the 6 data quality dimensions? Provide an example of each.
-- What is data governance, and what is its role in data architectures such as data warehouses and data lakes?
-- What is a business glossary, and what is its role in data architectures such as data warehouses and data lakes? Describe the difference between a business glossary and a data catalog.
+- [What are the 6 data quality dimensions? Provide an example of each.](Question/Q3/Q3.10.md)
+- [What is data governance, and what is its role in data architectures such as data warehouses and data lakes?](Question/Q3/Q3.11.md)
+- [What is a business glossary, and what is its role in data architectures such as data warehouses and data lakes? Describe the difference between a business glossary and a data catalog.](Question/Q3/Q3.12.md)
 	- (The speaker described what a data catalog is during his talk. For a definition, you can refer to this link.)
-- How do data lakes different from data warehouses?
-- How do data hubs differ from data warehouses?
+- [How do data lakes different from data warehouses?](Question/Q3/Q3.13.md)
+- [How do data hubs differ from data warehouses?](Question/Q3/Q3.14.md)
 
 ## NoSQL Database (including graph stores)
 
