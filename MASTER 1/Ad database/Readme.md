@@ -33,14 +33,16 @@
 
 ## NoSQL Database (including graph stores)
 
-- What is the “definition” of NoSQL, and what is the motivation behind the movement and technologies?
+- [What is the “definition” of NoSQL, and what is the motivation behind the movement and technologies?](Question/Q4/Q4.1.md)
 - Compare the data modeling approaches used in relational databases and XXX. Provide compelling examples of scenarios where one approach is preferred over the other.
 - Describe the key characteristics of XXX, including their data model, querying capabilities, possibilities, and limitations. Provide the name of a XXX database and explain how it differs from a relational database.
-- Describe the concepts of horizontal scaling, CAP, and BASE. How are these concepts related?
-- Discuss the trade-offs of choosing a NoSQL database over a relational database. When would it be appropriate to choose a NoSQL database over a relational database, and why? Conversely, when would it be appropriate to choose a relational database over a NoSQL database?
-- Explain the concept of eventual consistency in distributed NoSQL databases. How does the concept of consistency differ in ACID?
+- [Describe the concepts of horizontal scaling, CAP, and BASE. How are these concepts related?](Question/Q4/Q4.4.md)
+- [Discuss the trade-offs of choosing a NoSQL database over a relational database. When would it be appropriate to choose a NoSQL database over a relational database, and why? Conversely, when would it be appropriate to choose a relational database over a NoSQL database?](Question/Q4/Q4.5.md)
+- [Explain the concept of eventual consistency in distributed NoSQL databases. How does the concept of consistency differ in ACID?](Question/Q4/Q4.6.md)
 - What is denormalization in NoSQL databases? Provide and describe an example of how denormalization can improve performance in a document store
-- Describe the CAP theorem and how it relates to NoSQL databases. Explain the trade-offs between the three “guarantees” in a distributed NoSQL database.
+- [Describe the CAP theorem and how it relates to NoSQL databases. Explain the trade-offs between the three “guarantees” in a distributed NoSQL database.](Question/Q4/Q4.8.md)
+
+XXX = either Document stores, Graph stores, Column-family stores, or Key-Value stores.
 
 ## NoSQL Database (focus on graph stores)
 
