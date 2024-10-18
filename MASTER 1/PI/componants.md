@@ -39,11 +39,11 @@ Un autre avantage est la gestion de la sécurité. Chaque manipulation de donné
 
 De plus, la modularité rend le code plus simple et plus évolutif. Si un nouveau type de donnée est nécessaire, il suffit de créer un nouveau composant dédié, et le reste du système continue de fonctionner sans interruption.
 
-#### Les gestionnaires (managers)  
+#### Les gestionnaires 
 Les gestionnaires sont : **OAuth Proxy**, **Auth**, et **Computation**. Ils gèrent les aspects qui ne sont pas directement liés à l'application mais qui sont indispensables à son bon fonctionnement.
 
-- **OAuth Proxy** redirige l'utilisateur vers le SSO de l'ULiège et donne un cookie pour identifier le client et l'utilisateur. Il établit également une connexion chiffrée entre le client et le serveur.
-- **Auth** associe le client et l'utilisateur, puis vérifie que l'utilisateur est légitime avant de rediriger la requête vers la destination souhaitée.
+- **OAuth Proxy** redirige l'utilisateur vers le SSO de l'ULiège et donne un cookie pour identifier l'utilisateur que le client donnera au moment de faire ses requètes. Il établit également une connexion chiffrée entre le client et le serveur.
+- **Auth** associe le client et l'utilisateur à l'aide du cookie, puis vérifie que l'utilisateur est légitime avant de rediriger la requête vers la destination souhaitée.
 - **Computation** lance des processus de calculs et renvoie les résultats.
 
 Ces gestionnaires sont invisibles pour l'utilisateur final, qui ne leur envoie jamais de requêtes directement. Ils fonctionnent comme la poste : ils prennent la requête, la manipulent et la transmettent au destinataire. Cela permet de simplifier les interactions du point de vue de l'utilisateur tout en traitant des aspects complexes en arrière-plan, comme la gestion des droits d'accès et l'optimisation des calculs.
