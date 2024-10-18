@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MASTER 1/Ad database/Question/Q4/Q4.2.md",
+                "file": "MASTER 1/Compilers/Questions/Q3/Q3.13.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30a8b2907b9f1f57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BAC 3/Électromagnétisme/Questions/Q3.4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74be0f591f42076d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MASTER 1/PI/componants.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MASTER 1/Ad database/Question/Q4/Q4.2.md",
+                "file": "MASTER 1/PI/componants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MASTER 1/Ad database/Question/Q4/Q4.2.md",
+                "file": "MASTER 1/PI/componants.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MASTER 1/Ad database/Question/Q4/Q4.2.md"
+                "file": "MASTER 1/PI/componants.md"
               }
             }
           },
@@ -158,12 +183,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d472b18b534044d7",
+  "active": "74be0f591f42076d",
   "lastOpenFiles": [
-    "MASTER 1/Ad database/Question/Q4/Q4.3.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.2.md",
-    "MASTER 1/Ad database/Question/Q4/attachments/Pasted image 20240601165217.png",
+    "MASTER 1/PI/Readme.md",
+    "MASTER 1/PI/componants.md",
+    "MASTER 1/PI/attachments/Components.png",
+    "MASTER 1/PI/attachments",
+    "README.md",
+    "MASTER 1/PI",
+    "BAC 3/Électromagnétisme/Questions/Q3.5.md",
+    "MASTER 1/Compilers/Questions/Q3/Q3.11.md",
+    "MASTER 1/Compilers/Questions/Q3/Q3.5.md",
+    "MASTER 1/Compilers/Readme.md",
+    "MASTER 1/Compilers/Questions/Q3/Q3.23 (todo).md",
+    "MASTER 1/Compilers/Questions/Q3/attachments/Pasted image 20240612113105.png",
+    "MASTER 1/Theory of Computation/Questions/Q1.md",
+    "MASTER 1/Theory of Computation/Questions/Q3.md",
+    "MASTER 1/Theory of Computation/Questions/Q4.md",
+    "MASTER 1/Compilers/Questions/Q3/Q3.3 (todo).md",
     "MASTER 1/Ad database/Readme.md",
+    "MASTER 1/Ad database/Question/Q4/Q4.2.md",
+    "MASTER 1/Ad database/Question/Q4/Q4.3.md",
+    "MASTER 1/Ad database/Question/Q4/attachments/Pasted image 20240601165217.png",
     "MASTER 1/Ad database/Question/Q4/attachments/Pasted image 20240601162333.png",
     "MASTER 1/Ad database/Question/Q4/Q4.5.md",
     "MASTER 1/Ad database/Question/Q4/Q4.8.md",
@@ -180,30 +221,15 @@
     "MASTER 1/Ad database/Question/Q3/Q3.14.md",
     "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240531152719.png",
     "MASTER 1/Ad database/Question/Q3/Q3.13.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.1.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.12.md",
-    "MASTER 1/Ad database/Question/Q2/Q2.1.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.8.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.2.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.6.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.3.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.7.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.5.md",
     "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530153035.png",
     "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152904.png",
     "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152755.png",
-    "MASTER 1/Ad database/Question/Q3/Q3.4.md",
     "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152547.png",
-    "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152246.png",
     "MASTER 1/Ad database/Question/Q3/attachments",
     "MASTER 1/Ad database/Question/Q3",
-    "MASTER 1/Ad database/Question/Q2/Q2.2.md",
-    "MASTER 1/Ad database/Question/Q2/attachments/Pasted image 20240530102511.png",
     "MASTER 1/Ad database/Question/Q2/attachments",
     "MASTER 1/Ad database/Question/Q2",
     "MASTER 1/Ad database/Question/Q1/attachments",
-    "MASTER 1/Ad database/Question/Q1",
-    "MASTER 1/Ad database/Question",
-    "MASTER 1/Ad database"
+    "MASTER 1/Ad database/Question/Q1"
   ]
 }
