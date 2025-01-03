@@ -7,3 +7,4 @@
 - [RNN](Slide_notes/RNN.md)
 - [text_classification](Slide_notes/text_classification.md)
 - [TFIDF](Slide_notes/TFIDF.md)
+- [Attention_Mechanism_in_NLP](Slide_notes/Attention_Mechanism_in_NLP.md)

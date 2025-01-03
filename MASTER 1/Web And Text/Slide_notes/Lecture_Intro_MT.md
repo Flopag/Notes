@@ -46,7 +46,9 @@ Heuristics search algorithm : discard hypotheses with low probability. First, co
 
 Largely outperform SMT performance
 
-Basic idea : Single neural network architecture for machine translation. This architecture is composed of two recural neural networks (RNN), one is the encoder and the other is the decoder. Tjis architecture is named Seq2seq
+Basic idea : Single neural network architecture for machine translation. This architecture is composed of two recural neural networks (RNN), one is the encoder and the other is the decoder. This architecture is named Seq2seq
+
+![](attachments/Pasted%20image%2020250103162529.png)
 
 ### Encoder
 

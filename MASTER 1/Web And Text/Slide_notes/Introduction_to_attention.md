@@ -25,3 +25,12 @@ Benefit of explicit attention :
 
 ![](attachments/Pasted%20image%2020250102212618.png)
 
+## Soft attention
+
+This is an explicit attention mechanisms but use mean of distribution $P(g|a)$ :
+
+$$\vec g = \sum_{\vec g' \in \vec x} \vec g' P(\vec g'|\vec a)$$
+
+Where $\vec a$ is the attention output
+
+to continue if time (from slide 42 until the end)
