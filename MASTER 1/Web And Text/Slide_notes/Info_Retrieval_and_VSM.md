@@ -54,3 +54,7 @@ $$x \bullet y = \sum_{i=1}^n x_iy_i = ||x|| \ ||y|| \cos\theta$$
 This can be transformed to get the angle $\theta$ :
 
 $$\theta = \cos^{-1} {\frac {\sum_{i=1}^n x_iy_i}{||x|| \ ||y||}}$$
+
+Reminder, the length of a vector is :
+
+$$||x|| = \sqrt{\sum_{i=1}^n x_i^2}$$

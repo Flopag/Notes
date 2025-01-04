@@ -8,3 +8,6 @@
 - [text_classification](Slide_notes/text_classification.md)
 - [TFIDF](Slide_notes/TFIDF.md)
 - [Attention_Mechanism_in_NLP](Slide_notes/Attention_Mechanism_in_NLP.md)
+- [Contextual_embeddings](Slide_notes/Contextual_embeddings.md)
+- [Word_Embeddings](Slide_notes/Word_Embeddings.md)
+- 
