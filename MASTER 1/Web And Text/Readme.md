@@ -43,3 +43,17 @@
 		- $tf_{t,d}$ is the number of occurrence of term $t$ in document $d$ (term frequency)
 		- $df_t$ is the number of occurrence of term $t$ in all documents
 		- $N$ is the number of documents of the collection
+
+## Text classification
+
+### Features selection : 
+
+- is the process of selecting a subset of relevant features from the full set of features of the dataset
+	- Feature = value given as input
+- Two types of methods :
+	- Linguistic methods : Identify features based on linguistic information (e.g. grammar)
+	- Statical methods : Identify features based on the occurrence frequency
+		- TFIDF (see above)
+		- Mutual information : the amount of information that the term contains about the class (see [here](Slide_notes/text_classification.md) to get formula)
+		- Chi-square : the amount of dependence between events (see [here](Slide_notes/text_classification.md) to get formula)
+			- big values is big dependence
