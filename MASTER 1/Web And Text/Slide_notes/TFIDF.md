@@ -12,7 +12,7 @@ $$tf-idf_{t,d} = tf_{t,d} \times idf_t = tf_{t,d} \times \log \frac{N}{df_t}$$
 
 Where:
 - $tf_{t,d}$ is the number of occurrence of term $t$ in document $d$ (term frequency)
-- $df_t$ is the number of occurrence of term $t$ in all documents
+- $df_t$ is the number of document that contains $t$
 - $idf_t = \log \frac{N}{df_t}$ is the inverse-document frequency
 - $N$ is the number of documents of the collection
 

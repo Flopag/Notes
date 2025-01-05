@@ -30,7 +30,7 @@
 	- by angular distance ($\theta = \cos^{-1} {\frac {\sum_{i=1}^n x_iy_i}{||x|| \ ||y||}}$) : do not penalize large vectors, only look to relevant dimensions (words)
 		- size of a vector is computed using $||x|| = \sqrt{\sum_{i=1}^n x_i^2}$
 
-## [Term-Frequency Inverse-Document Frequency (TFIF)](Slide_notes/TFIDF.md)
+### [Term-Frequency Inverse-Document Frequency (TFIF)](Slide_notes/TFIDF.md)
 
 - Term-frequency : the more mentions of a query is, the more relevant the document is
 	- Documents with most words same as query have most values
@@ -41,10 +41,10 @@
 	- $TFIDF_{t, d} = tf_{t,d} \times \log \frac{N}{df_t}$
 	- Where :
 		- $tf_{t,d}$ is the number of occurrence of term $t$ in document $d$ (term frequency)
-		- $df_t$ is the number of occurrence of term $t$ in all documents
+		- $df_t$ is the number of document that contains $t$
 		- $N$ is the number of documents of the collection
 
-## [Text classification - Features selection](Slide_notes/text_classification.md)
+### [Text classification - Features selection](Slide_notes/text_classification.md)
 
 - is the process of selecting a subset of relevant features from the full set of features of the dataset
 	- Feature = value given as input
@@ -66,7 +66,7 @@
 			- it is good for text classification because it do good comparisons between class despite that it does deliver un accurate solo values
 				- Good because robust, efficient and easy
 
-## [Recurrent Neural Network (RNN)](Slide_notes/RNN.md)
+### [Recurrent Neural Network (RNN)](Slide_notes/RNN.md)
 
 - are neural networks where the neurones are trained using backpropagation trough time and process sequential data (RNN remembers information, basic NN don't)
 - Three types of layer : Input, Hidden, Output
@@ -101,7 +101,7 @@
 			- Output gate : how much of the memory cell to pass to the output
 		- Prevent vanishing gradient tanks to the only use of the Forget gates that have a value between 0 and 1, smoother gradient flow
 
-## [Machine translation evaluation](Slide_notes/MT_Evaluation.md)
+### [Machine translation evaluation](Slide_notes/MT_Evaluation.md)
 
 - Evaluation aim to determine how good is a machine translation system
 - Two kinds of translation quality :
@@ -119,7 +119,7 @@
 	- BLEU-1 is the same as precision-recall because the cluster size are of one word
 	- Limitation : it overlook the semantics and the meaning can be fault. (see [example](Slide_notes/MT_Evaluation.md))
 
-## [Attention mechanism](Slide_notes/Introduction_to_attention.md)
+### [Attention mechanism](Slide_notes/Introduction_to_attention.md)
 
 - Attention mechanism permit neural network to focus on some information
 - Two types of attention :
@@ -133,7 +133,7 @@
 		- Can lead to complicated computation because elements can be widely spread
 - Soft attention : todo
 
-## [Contextual embeddings](Slide_notes/Contextual_embeddings.md)
+### [Contextual embeddings](Slide_notes/Contextual_embeddings.md)
 
 - An embedding is the representation of the meaning of a word
 - Two types of embedding :
@@ -149,7 +149,7 @@
 			- Positional embedding : encode position using $sin$ and $cos$
 				- Permit to give position to transformers, because transformers forget positional data (du to parallelism)
 
-## [Word embeddings](Slide_notes/Word_Embeddings.md)
+### [Word embeddings](Slide_notes/Word_Embeddings.md)
 
 - Word embeddings is the embedding of a word
 - It often represent the context of the linked token
@@ -168,7 +168,7 @@
 			- Handle rare words
 			- Capture more specific word relationship
 
-## [LLM](Slide_notes/Tranformers_from_scratch(LLaMa).md)
+### [LLM](Slide_notes/Tranformers_from_scratch(LLaMa).md)
 
 - LLM are often based on transformers with stack of encoder and decoder
 - Positional embedding :  gives information about the position (useful for transformers)
