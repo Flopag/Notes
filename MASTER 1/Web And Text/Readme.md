@@ -65,3 +65,31 @@
 					- So, each class is associated to a statistical distribution
 			- it is good for text classification because it do good comparisons between class despite that it does deliver un accurate solo values
 				- Good because robust, efficient and easy
+
+## Recurrent Neural Network (RNN)
+
+- are neural networks where the neurones are trained using backpropagation
+- Three types of layer : Input, Hidden, Output
+- Propagation of states : $h_t = f_W(h_{t-1}, x_t)$
+	- for basic RNN, use of : $f_W(h_{t-1}, x_t) = tanh(W_{hh}h_{t-1} + W_{xh}x_t)$
+- Output : $y_t = W_{hy}h_t$
+	- Many to One : output one value at the end of the sequence of inputs
+	- One to Many : output multiple value for one input
+	- Many to many : output multiple values for multiple inputs
+		- output for each input
+		- output time not related to input time
+- Output is used to compute the loss and then back propagate
+- Sequence to Sequence architecture (Seq2Sec)
+	- Used in machine translation
+	- Combination of encoder-decoder, decoder gets output of encoder as input
+	- Encoder : 
+		- Many to one
+		- Output the probability (if use of softmax) of the next character
+	- Decoder :
+		- One to many
+		- Output the word
+- Vanishing gradient : The gradient can vanish trough time due to backpropagation
+	- Back propagation can divide some value until vanishing
+	- The inverse is called exploding gradient
+	- Can be fixed using : LSTM or GRU
+		- LSTM : todo
