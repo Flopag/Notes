@@ -66,9 +66,9 @@
 			- it is good for text classification because it do good comparisons between class despite that it does deliver un accurate solo values
 				- Good because robust, efficient and easy
 
-## Recurrent Neural Network (RNN)
+## [Recurrent Neural Network (RNN)](Slide_notes/RNN.md)
 
-- are neural networks where the neurones are trained using backpropagation
+- are neural networks where the neurones are trained using backpropagation trough time and process sequential data (RNN remembers information, basic NN don't)
 - Three types of layer : Input, Hidden, Output
 - Propagation of states : $h_t = f_W(h_{t-1}, x_t)$
 	- for basic RNN, use of : $f_W(h_{t-1}, x_t) = tanh(W_{hh}h_{t-1} + W_{xh}x_t)$
@@ -79,15 +79,17 @@
 		- output for each input
 		- output time not related to input time
 - Output is used to compute the loss and then back propagate
+- Backpropagation trough time (BPTT) : back propagation but trough states (time) instead of only trough layers
+	- Each back propagation, the weights are updated doing a sort of memory
 - Sequence to Sequence architecture (Seq2Sec)
 	- Used in machine translation
 	- Combination of encoder-decoder, decoder gets output of encoder as input
 	- Encoder : 
 		- Many to one
-		- Output the probability (if use of softmax) of the next character
+		- Output the context vector from input (if use of [softmax](Slide_notes/Word_Embeddings.md), it becomes a probability distribution)
 	- Decoder :
 		- One to many
-		- Output the word
+		- Output the sequence given the context vector from encoder
 - Vanishing gradient : The gradient can vanish trough time due to backpropagation
 	- Back propagation can divide some value until vanishing
 	- The inverse is called exploding gradient
