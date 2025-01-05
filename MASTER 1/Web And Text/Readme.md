@@ -94,4 +94,27 @@
 	- Back propagation can divide some value until vanishing
 	- The inverse is called exploding gradient
 	- Can be fixed using : LSTM or GRU
-		- LSTM : todo
+		- LSTM : introduction of memory cells and gates that control the flow of information
+		- Four gates : control how much information is passed through or removed from the memory cell. They consist of sigmoid (output between 0 and 1)
+			- Forget gate : how much information from the previous cell state to forget
+			- Input gate : how much new information to add to the memory cell
+			- Output gate : how much of the memory cell to pass to the output
+		- Prevent vanishing gradient tanks to the only use of the Forget gates that have a value between 0 and 1, smoother gradient flow
+
+## [Machine translation evaluation](Slide_notes/MT_Evaluation.md)
+
+- Evaluation aim to determine how good is a machine translation system
+- Two kinds of translation quality :
+	- Adequacy : is the meaning kept ?
+	- Fluency : is the grammar correct ?
+- Human evaluation : not so good because a lot of subjectivity
+- Precision-Recall : look at words that are exactly the same than in reference
+	- $F1$-score computed making the proportion of word in both text
+	- Bad, do not look at the meaning, only words is important not their position
+- Word Error Rate (WER) : look at the number of steps needed to go from output text to reference
+	- Each type of steps (substitution, insertion, deletion) have a fixed value
+	- This can be computed by finding the less costly path between both texts
+- BLEU : look at clusters similitude between output text and reference
+	- $BLEU_4 = \min\left(1, \frac{output length}{reference length}\right) \left(\prod_{i=1}^4 precision_i\right)^{\frac 1 4}$
+	- BLEU-1 is the same as precision-recall because the cluster size are of one word
+	- Limitation : it overlook the semantics and the meaning can be fault. (see [example](Slide_notes/MT_Evaluation.md))
