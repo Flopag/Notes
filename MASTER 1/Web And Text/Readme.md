@@ -11,3 +11,4 @@
 - [Contextual_embeddings](Slide_notes/Contextual_embeddings.md)
 - [Word_Embeddings](Slide_notes/Word_Embeddings.md)
 - [LLMs](Slide_notes/LLMs.md)
+- [Tranformers_from_scratch(LLaMa)](Slide_notes/Tranformers_from_scratch(LLaMa).md)
