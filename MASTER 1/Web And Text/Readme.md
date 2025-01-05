@@ -167,3 +167,15 @@
 		- Pros :
 			- Handle rare words
 			- Capture more specific word relationship
+
+## [LLM](Slide_notes/Tranformers_from_scratch(LLaMa).md)
+
+- LLM are often based on transformers with stack of encoder and decoder
+- Positional embedding :  gives information about the position (useful for transformers)
+- Relative positional embedding :  gives information about the proximity between two words
+	- Hard to compute 
+	- Must have fixed positional embedding
+- Rotary positional embedding (RoPE) : gives information of position through rotations
+	- Permit to get relative position, as angle do not change if we modify all but distance
+- KV cache : store data during inference
+	- Avoid useless re-computation
