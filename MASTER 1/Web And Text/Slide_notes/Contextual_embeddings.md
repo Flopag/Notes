@@ -43,6 +43,6 @@ There is a multi headed self-attention that pay attention to:
 
 WordPiece embeddings : The tokenisation of this model is made word by word. That permit ease of asian languages
 
-Positional embedding : permit to get relative position using $sin$ and $cos$ . We need to get relative position because absolute position can be too big to maintain for big sentences
+Positional embedding : permit to encode position using $sin$ and $cos$. This is useful in transformers because transformers process inputs in parallel, so, it do not have naturally the position of the word
 
 The input of the transformer is a combination of WordPiece and Positional embedding
