@@ -118,3 +118,52 @@
 	- $BLEU_4 = \min\left(1, \frac{output length}{reference length}\right) \left(\prod_{i=1}^4 precision_i\right)^{\frac 1 4}$
 	- BLEU-1 is the same as precision-recall because the cluster size are of one word
 	- Limitation : it overlook the semantics and the meaning can be fault. (see [example](Slide_notes/MT_Evaluation.md))
+
+## [Attention mechanism](Slide_notes/Introduction_to_attention.md)
+
+- Attention mechanism permit neural network to focus on some information
+- Two types of attention :
+	- Natural : incidence of the neural network itself (e.g. RNN)
+		- We do not have control on it
+	- Implicit : attention is made intentionally (forced)
+- To analyse attention, we use a matrix that models the relationship between inputs and outputs, the Jacobian :
+	- The elements of the Jacobian are $J_{ij} = \frac{\partial \ y_i}{\partial \ x_j}$
+	- This matrix is computed by backpropagating the input directly (not its loss)
+	- RNN have a time dimension, so, the elements become $J_k^t = \left(\frac{\partial y_k^t}{\partial \vec x_1}, \frac{\partial y_k^t}{\partial \vec x_2}, ...\right)$
+		- Can lead to complicated computation because elements can be widely spread
+- Soft attention : todo
+
+## [Contextual embeddings](Slide_notes/Contextual_embeddings.md)
+
+- An embedding is the representation of the meaning of a word
+- Two types of embedding :
+	- Static embedding : pre-trained, represent the embedding of the pretrained phase
+	- Dynamic embedding : can change and influence each other, represents the context of the pretrained phase and the context of the current data
+- Contextual embedding is dynamic embedding since each word embedding depends of their surrounding words embeddings
+	- Bi-LSTM : mixing left and right static embeddings. 
+		- The more the embeddings are far away, the less impact they have on each other
+	- ELMo : add a Bi-LSTM output as input, sided with the true input
+	- BERT : use bidirectional transformer, so, process input in parallel
+		- The input of the transformers is a mix of WordPiece and Positional embedding :
+			- WordPiece embeddings : Tokenisation made word by word
+			- Positional embedding : encode position using $sin$ and $cos$
+				- Permit to give position to transformers, because transformers forget positional data (du to parallelism)
+
+## [Word embeddings](Slide_notes/Word_Embeddings.md)
+
+- Word embeddings is the embedding of a word
+- It often represent the context of the linked token
+- Word2Vec : use of a model to make the context vector
+	- Can be done using two algorithm :
+		- CBOW
+		- SG
+	- Continuous bag of Words (CBOW) predict target from context
+		- Aggregates the embeddings of the words around the target to predict it
+		- Pros :
+			- Faster to train
+			- Suitable for large datasets with frequent words
+	- SG predict context from target
+		- Get the target embedding and predict words that are likely next to it
+		- Pros :
+			- Handle rare words
+			- Capture more specific word relationship
