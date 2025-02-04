@@ -8,49 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d472b18b534044d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MASTER 1/Compilers/Questions/Q3/Q3.13.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Q3.13"
-            }
-          },
-          {
-            "id": "30a8b2907b9f1f57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BAC 3/Électromagnétisme/Questions/Q3.4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Q3.4"
-            }
-          },
-          {
             "id": "74be0f591f42076d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MASTER 1/PI/componants.md",
+                "file": "MASTER 1/Web And Text/Slide_notes/Lecture_Intro_MT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "componants"
+              "title": "Lecture_Intro_MT"
+            }
+          },
+          {
+            "id": "6457462256967ee6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MASTER 1/digital_forensics/Lessons_summary/lesson_1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lesson_1"
+            }
+          },
+          {
+            "id": "93a5b2f34326584d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MASTER 1/Web And Text/Slide_notes/Info_Retrieval_and_VSM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Info_Retrieval_and_VSM"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bleu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 357.5
   },
   "right": {
     "id": "4e7d73f9bc18c44d",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MASTER 1/PI/componants.md",
+                "file": "MASTER 1/Web And Text/exam_content_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for componants"
+              "title": "Backlinks for exam_content_notes"
             }
           },
           {
@@ -141,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MASTER 1/PI/componants.md",
+                "file": "MASTER 1/Web And Text/exam_content_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from componants"
+              "title": "Outgoing links from exam_content_notes"
             }
           },
           {
@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MASTER 1/PI/componants.md"
+                "file": "MASTER 1/Web And Text/exam_content_notes.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of componants"
+              "title": "Outline of exam_content_notes"
             }
           },
           {
@@ -205,53 +205,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74be0f591f42076d",
+  "active": "6457462256967ee6",
   "lastOpenFiles": [
-    "MASTER 1/PI/Readme.md",
+    "MASTER 1/digital_forensics/Readme.md",
+    "MASTER 1/digital_forensics/Lessons_summary/lesson_1.md",
+    "MASTER 1/digital_forensics/Lessons_summary",
+    "MASTER 1/Web And Text/Slide_notes/Lecture_Intro_MT.md",
+    "MASTER 1/digital_forensics",
+    "MASTER 1/Web And Text/exam_content_notes.md",
+    "MASTER 1/Web And Text/Readme.md",
+    "MASTER 1/Web And Text/Slide_notes/Info_Retrieval_and_VSM.md",
+    "MASTER 1/Web And Text/Slide_notes/TFIDF.md",
+    "MASTER 1/Web And Text/Slide_notes/Tranformers_from_scratch(LLaMa).md",
+    "MASTER 1/Web And Text/Slide_notes/LLMs.md",
+    "MASTER 1/Web And Text/Slide_notes/Contextual_embeddings.md",
+    "MASTER 1/Web And Text/Slide_notes/Word_Embeddings.md",
+    "MASTER 1/Web And Text/Slide_notes/Attention_Mechanism_in_NLP.md",
+    "MASTER 1/Web And Text/Slide_notes/Introduction_to_attention.md",
+    "MASTER 1/Web And Text/Slide_notes/MT_Evaluation.md",
+    "MASTER 1/Web And Text/Slide_notes/RNN.md",
+    "MASTER 1/Web And Text/Slide_notes/text_classification.md",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250105160000.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250105155942.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250105154931.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250105154720.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250105145304.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250105113215.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250104210428.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250104205554.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250104172748.png",
+    "MASTER 1/Web And Text/Slide_notes/attachments/Pasted image 20250104162048.png",
+    "MASTER 1/Compilers/Questions/Q3/Q3.13.md",
+    "BAC 3/Électromagnétisme/Readme.md",
+    "BAC 3/Électromagnétisme/Questions/Q8.2.md",
+    "BAC 3/Électromagnétisme/Questions/Q8.1.md",
+    "BAC 3/Électromagnétisme/Questions/Q7.5.md",
+    "BAC 3/Électromagnétisme/Questions/Q6.1.md",
+    "BAC 3/Électromagnétisme/Questions/Q3.4.md",
+    "BAC 3/Électromagnétisme/Notion/Déplacement électrique.md",
+    "MASTER 1/Web And Text/Slide_notes/attachments",
+    "MASTER 1/Web And Text/Slide_notes",
     "MASTER 1/PI/componants.md",
-    "MASTER 1/PI/attachments/Components.png",
+    "MASTER 1/Web And Text",
+    "MASTER 1/PI/Readme.md",
     "MASTER 1/PI/attachments",
-    "README.md",
     "MASTER 1/PI",
-    "BAC 3/Électromagnétisme/Questions/Q3.5.md",
-    "MASTER 1/Compilers/Questions/Q3/Q3.11.md",
-    "MASTER 1/Compilers/Questions/Q3/Q3.5.md",
-    "MASTER 1/Compilers/Readme.md",
-    "MASTER 1/Compilers/Questions/Q3/Q3.23 (todo).md",
-    "MASTER 1/Compilers/Questions/Q3/attachments/Pasted image 20240612113105.png",
-    "MASTER 1/Theory of Computation/Questions/Q1.md",
-    "MASTER 1/Theory of Computation/Questions/Q3.md",
-    "MASTER 1/Theory of Computation/Questions/Q4.md",
-    "MASTER 1/Compilers/Questions/Q3/Q3.3 (todo).md",
-    "MASTER 1/Ad database/Readme.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.2.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.3.md",
-    "MASTER 1/Ad database/Question/Q4/attachments/Pasted image 20240601165217.png",
-    "MASTER 1/Ad database/Question/Q4/attachments/Pasted image 20240601162333.png",
-    "MASTER 1/Ad database/Question/Q4/Q4.5.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.8.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.4.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.1.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.7.md",
-    "MASTER 1/Ad database/Question/Q4/Q4.6.md",
-    "MASTER 1/Ad database/Question/Q4/attachments/Pasted image 20240531165045.png",
     "MASTER 1/Ad database/Question/Q4/attachments",
     "MASTER 1/Ad database/Question/Q4",
-    "MASTER 1/Ad database/Question/Q3/Q3.9.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.11.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.10.md",
-    "MASTER 1/Ad database/Question/Q3/Q3.14.md",
-    "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240531152719.png",
-    "MASTER 1/Ad database/Question/Q3/Q3.13.md",
-    "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530153035.png",
-    "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152904.png",
-    "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152755.png",
-    "MASTER 1/Ad database/Question/Q3/attachments/Pasted image 20240530152547.png",
-    "MASTER 1/Ad database/Question/Q3/attachments",
-    "MASTER 1/Ad database/Question/Q3",
-    "MASTER 1/Ad database/Question/Q2/attachments",
-    "MASTER 1/Ad database/Question/Q2",
-    "MASTER 1/Ad database/Question/Q1/attachments",
-    "MASTER 1/Ad database/Question/Q1"
+    "MASTER 1/Ad database/Question/Q3/attachments"
   ]
 }
