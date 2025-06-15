@@ -9,6 +9,6 @@
 3. [Construction of an automaton representing the models of a LTL formula.](Question/Q3.md)
 4. [Model-checking algorithm for LTL: global approach, algorithm for checking the non-emptiness of infinite-word automata.](Question/Q4.md)
 5. [Symbolic verification: Kripke structures, expressing reachability and repeated reachability in logic.](Question/Q5.md)
-6. Binary Decision Diagrams: definition, construction, operations on BDDs.
+6. [Binary Decision Diagrams: definition, construction, operations on BDDs.](Question/Q6.md)
 
 ## Second Part
